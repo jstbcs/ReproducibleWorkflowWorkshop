@@ -11,3 +11,51 @@ In the debate around the reproducibility crisis, most attention is paid to insta
 October 23, at 15:00 – 17:00. Roeterseiland Campus (building G, room G S.02). 
 
 ## How to Prepare
+
+### Install git
+
+1. Follow the instructions here: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+2. Make sure to sign up with github ([github.com](github.com)), we will use it as host for our repositories.
+3. We will use `RStudio` as user interface for `git`. An alternative is, for example, the github desktop GUI ([link](https://desktop.github.com/)).
+
+### Install R and RStudio
+
+**Windows**
+
+Follow the instructions here: [https://www.reed.edu/data-at-reed/software/R/r_studio_pc.html](https://www.reed.edu/data-at-reed/software/R/r_studio_pc.html). 
+
+*Note 1:* The versions in the instructions are out of date. Always install the latest release.
+
+*Note 2:* The instructions also ask to install `MiKTeX` which we'll need as well. If you already use latex you can ignore this step because you most likely already have it installed. Make sure to try Steps 7 and 8 in this case. 
+
+**Mac**
+
+Follow the instructions here: [https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4).
+
+*Note:* The versions in the instructions are out of date. Always install the latest release.
+
+**Ubuntu 19.04/18.04/16.04**
+
+- For `R`: Open the terminal (Ctrl+Alt+t) and type
+
+```
+sudo apt update
+sudo apt install r-base
+```
+
+- For `RStudio`: Go to [https://rstudio.com/products/rstudio/download/#download](https://rstudio.com/products/rstudio/download/#download) and choose the installer for your system; follow the instructions.
+
+### Install some R packages
+
+- Open an `R` console, for example by opening `RStudio`.
+- Type into the R console:
+
+```
+install.packages("rmarkdown")
+install.packages("knitr")
+install.packages("devtools")
+devtools::install_github("crsh/papaja", ref = "devel")
+```
+
+
+
