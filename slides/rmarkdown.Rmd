@@ -1,0 +1,57 @@
+---
+title: "Reproducible Workflow"
+author: "Julia Haaf"
+csl: apa6.csl
+output:
+  ioslides_presentation:
+    css: shiny-slides.css
+    logo: pics/UvAlogo.png
+    transition: faster
+    widescreen: yes
+  beamer_presentation: default
+header-includes:
+- \usepackage{bm}
+- \usepackage{pcl}
+- \usepackage{amsmath}
+- \usepackage{setspace}
+- \usepackage{bm}
+- \usepackage{setspace}
+subtitle: "R Markdown"
+bibliography: lab.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# 4. What is `R Markdown` and how can I use it?
+
+## What is `R Markdown`?
+
+>- Document format embedding code chunks into Markdown documents.
+>- What's Markdown? "A lightweight markup language."
+>- Easy-to-read and easy-to-write plain text format. Easier than latex (but supports latex).
+
+# 5. Writing an APA-style paper that is fully reproducible.
+
+
+## References
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+<style>
+slides > slide:not(.nobackground):before {
+  background: none;
+}
+</style>
+
+<font size="3">
+<div id = "refs"></div>
+</font>
+
+

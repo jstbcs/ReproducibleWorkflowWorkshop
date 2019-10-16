@@ -1,0 +1,196 @@
+---
+title: "Reproducible Workflow"
+author: "Julia Haaf"
+csl: apa6.csl
+output:
+  ioslides_presentation:
+    css: shiny-slides.css
+    logo: pics/UvAlogo.png
+    transition: faster
+    widescreen: yes
+  beamer_presentation: default
+header-includes:
+- \usepackage{bm}
+- \usepackage{pcl}
+- \usepackage{amsmath}
+- \usepackage{setspace}
+- \usepackage{bm}
+- \usepackage{setspace}
+subtitle: "Git and Rmarkdown: Two Useful Tools for a Fully Reproducible Workflow"
+bibliography: lab.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+1. How can we minimize mistakes in psychological science?
+2. What does it mean to have a fully reproducible pipeline?
+3. What is `git` and how can I use it?
+4. What is `RMarkdown` and how can I use it?
+5. Writing an APA-style paper that is fully reproducible.
+
+# 1. How can we minimize mistakes in psychological science?
+
+## Replicability Crisis
+
+>- Failures to replicate [e.g. @Ebersole:etal:2016; @OpenScienceCollaboration:2015; @Wagenmakers:etal:2016b].
+>- Fraud [@Bhattacharjee:2013].
+>- Improbable findings have been published in top-tier journals [e.g. @Bem:2011].
+
+<br>
+
+<br>
+
+<img src="pics/bomb.jpg" width="200">
+
+## Proposed Solutions
+
+>- Change the incentive structure [e.g., @Nosek:etal:2015; @Wagenmakers:etal:2012a].
+>- Be transparent and open [e.g. @Rouder:2016; @Wicherts:etal:2011].
+>- Change the statistical approach [e.g. @Benjamin:etal:2018; @Rouder:etal:2016c; @Erdfelder:2010]
+
+<br>
+
+<br>
+
+<img src="pics/solution.png" width="250">
+
+## Proposed Solutions
+
+- Change the incentive structure [e.g., @Nosek:etal:2015; @Wagenmakers:etal:2012a].
+- Be transparent and open [e.g. @Rouder:2016; @Wicherts:etal:2011].
+- Change the statistical approach [e.g. @Benjamin:etal:2018; @Rouder:etal:2016c; @Erdfelder:2010]
+
+<center>
+**We assume people do stuff on purpose.**
+</center>
+
+<br>
+
+<br>
+
+<img src="pics/solution.png" width="250">
+
+## Mistakes in Psychological Science
+
+Sources of mistakes:
+
+>- Errors when programming the experiment (e.g. randomization).
+>- Equipment failure (e.g. responses are collected unreliably).
+>- Lost data.
+>- Errors when coding the analysis (e.g. with data cleaning).
+>- Errors when reporting the analysis (e.g. typos).
+
+<br>
+
+<img src="pics/oops.jpg" width="200">
+
+## Lab Practices Under the Microscope
+
+Think about your own experience:
+
+>- Is there time pressure to collect data?
+>- Are there checks for coding experiments/surveys?
+>- Are there checks for running analyses?
+
+<br>
+
+<img src="pics/lab.jpg" width="180">
+
+## Consequences
+
+>- Prevalence: Roughly half the publications in 30 years of literature contained at least one malformed statement of a statistical test [@Nuijten:etal:2016].
+>- Bias: Simple mistakes tend to go in researchers’ preferred direction [@Gould:1996].
+>- Persistent: Once in the literature mistakes are almost impossible to detect [@Rouder:etal:2019a].
+
+## High-Reliability Organizations’ Principles for Avoiding Mistakes
+
+>1. Sensitivity to operations: Focus on processes instead of outcomes.
+>2. Preoccupation with failure: Look for ways to proactively anticipate and avoid mistakes, and take small mistakes seriously.
+>3. Resilience in the face of failure and reluctance to simplify: In a resilient lab, when things go wrong --- and they will --- people talk about them, document them, and learn from them.
+>4. Deference to expertise: Each lab member has certain expertise.
+
+<br>
+
+<img src="pics/plane.jpeg" width="400">
+
+## From Principles to Practices
+
+>a. Adopting a lab culture focused on learning from mistakes.
+>b. Implementing radical computer automation.
+>c. Standardizing organizational strategies across lab members.
+>d. **Ensuring that statistical analyses are coded.**
+>e. **Developing expanded manuscripts in which documentation of analyses is woven into the manuscript files.**
+
+<img src="pics/Aha.png" width="200">
+
+# 2. What does it mean to have a fully reproducible pipeline?
+
+## Fully Reproducible
+
+>- Reproducible analysis.
+>- Reproducible graphs and tables.
+>- Reproducible numbers in text.
+
+## Who Can Reproduce When?
+
+>- Ideal: [Code containerization](https://hackernoon.com/what-is-containerization-83ae53a709a6).
+>- Minimal: Provide a list of packages and software needed (Open source!).
+>- Utopian: "I will be able to fully reproduce my analysis by 2035."
+
+## Tools for Reproducibility
+
+`git`
+
+>- Versioning tool for collaboratively working on a product.
+>- Avoid retaining multiple versions of the same work product.
+>- 'paper_final_final_B.docx'.
+>- Tutorial: @Vuorre:Curley:2018.
+
+`R Markdown`
+
+>- Document format embedding code chunks into text documents.
+>- Avoid copy-and-paste.
+>- Book: [https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/).
+
+## Short Break (5 minutes)
+
+**If you need help installing some things from [the instructions](https://github.com/jstbcs/ReproducibleWorkflowWorkshop#how-to-prepare) now is a good time.**
+
+<br>
+
+<br>
+
+link: https://github.com/jstbcs/ReproducibleWorkflowWorkshop#how-to-prepare
+
+## 3. What is `git` and how can I use it?
+
+Slides are at [git.html](git.html).
+
+## 4. What is `R Markdown` and how can I use it?
+
+Slides are at [rmarkdown.html](rmarkdown.html).
+
+## References
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+<style>
+slides > slide:not(.nobackground):before {
+  background: none;
+}
+</style>
+
+<font size="3">
+<div id = "refs"></div>
+</font>
+
+
