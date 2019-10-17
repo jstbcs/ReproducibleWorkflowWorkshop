@@ -24,13 +24,33 @@ bibliography: lab.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Format
+
+>- This is a workshop.
+>- But it is short.
+>- We will do some hands-on stuff but there is not a lot of time for practice.
+>- Towards the end of the session today we can discuss whether it makes sense to extend the workshop at another time.
+
+## Slides and Material
+
+You can find the slides and materials here:
+[https://github.com/jstbcs/ReproducibleWorkflowWorkshop](https://github.com/jstbcs/ReproducibleWorkflowWorkshop).
+
+## Who Are You?
+
+<br>
+
+<br>
+
+<img src="pics/who.png" width="400">
+
 ## Overview
 
 1. How can we minimize mistakes in psychological science?
 2. What does it mean to have a fully reproducible pipeline?
-3. What is `git` and how can I use it?
-4. What is `RMarkdown` and how can I use it?
-5. Writing an APA-style paper that is fully reproducible.
+3. What is `RMarkdown` and how can I use it?
+4. Writing an APA-style paper that is fully reproducible.
+5. What is `git` and how can I use it?
 
 # 1. How can we minimize mistakes in psychological science?
 
@@ -129,6 +149,21 @@ Think about your own experience:
 
 # 2. What does it mean to have a fully reproducible pipeline?
 
+## Science vs. Pseudo-Science
+
+<blockquote>
+“An article about computational results is advertising, not
+scholarship. The actual scholarship is the full software
+environment, code and data, that produced the result.” Claerbout & Karrenbach, 1992
+</blockquote>
+
+## Different Reproducibilities
+
+>- Empirical Reproducibility
+>- Computational Reproducibility
+>- Statistical Reproducibility
+>- Plus: machine vs. human readability
+
 ## Fully Reproducible
 
 >- Reproducible analysis.
@@ -166,13 +201,13 @@ Think about your own experience:
 
 link: https://github.com/jstbcs/ReproducibleWorkflowWorkshop#how-to-prepare
 
-## 3. What is `git` and how can I use it?
-
-Slides are at [git.html](git.html).
-
-## 4. What is `R Markdown` and how can I use it?
+## 3. What is `R Markdown` and how can I use it?
 
 Slides are at [rmarkdown.html](rmarkdown.html).
+
+## 5. What is `git` and how can I use it?
+
+Slides are at [git.html](git.html).
 
 ## References
 

@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en" class="pb-page" data-request-id="59aef9e8-1edf-41c8-8706-658d91a73f52"><head data-pb-dropzone="head">
+
+<script>
+    var dataLayer = dataLayer ||[];
+    dataLayer.push({"site":{"environment":"live","platform":"responsive-web"},"page":{"title":"","type":"cookie-absent"},"user":{"action":"","type":[],"loginStatus":"","authentication":"","authenticationType":"","institutionType":"","institution":[]}});
+</script>
+<script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push(
+                    {'gtm.start': new Date().getTime(), event: 'gtm.js'}
+            );
+            var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5M58KS');</script>
+
+<meta name="pbContext" content=";website:website:sage;wgroup:string:SAGE Publication Websites;page:string:Cookie Absent" />
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="en_US">
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive,noindex,nofollow" />
+<meta property="og:title" content="SAGE Journals: Your gateway to world-class research journals" />
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://journals.sagepub.com/action/cookieAbsent" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="900" />
+<meta property="og:site_name" content="SAGE Journals" />
+<meta property="og:description" content="Subscription and open access journals from SAGE Publishing, the world's leading independent academic publisher." />
+<title>SAGE Journals: Your gateway to world-class journal research</title>
+<meta name="description" content="Subscription and open access journals from SAGE Publishing, the world&#039;s leading independent academic publisher.">
+<link rel="stylesheet" type="text/css" href="/wro/hmnw~product.css"><link rel="stylesheet" type="text/css" href="/pb/css/t1570440456000-v1570440456000/head_1_6_7.css" id="pb-css" data-pb-css-id="t1570440456000-v1570440456000/head_1_6_7.css" />
+<script type="text/javascript">
+    if (window.location.hash && window.location.hash == '#_=_') {
+        window.location.hash = '';
+    }
+</script>
+<script type="text/javascript" src="/wro/hmnw~product.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="preconnect" crossorigin="crossorigin" href="https://stats.g.doubleclick.net" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://tpc.googlesyndication.com" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://pagead2.googlesyndication.com" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://securepubads.g.doubleclick.net" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://cdn.ampproject.org" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://api.altmetric.com" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://s7.addthis.com" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://m.addthis.com" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://www.deepdyve.com" crossorigin>
+<link rel="preconnect" crossorigin="crossorigin" href="https://sage.msgfocus.com" crossorigin>
+<link rel="dns-prefetch" href="https://sadmin.brightcove.com">
+<link rel="dns-prefetch" href="https://w.usabilla.com">
+<link rel="dns-prefetch" href="https://rum-collector-2.pingdom.net">
+<script>
+if (typeof jQuery==='undefined') {
+	document.write(unescape('\x3Clink rel="stylesheet" type="text/css" href="/wro/h7sc/product.css"\x3E'));
+	document.write(unescape('\x3Cscript src="/wro/h7sc/product.js"\x3E\x3C/script\x3E'));
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/pb-assets/CSS/global-1568027479810.css">
+<link rel="stylesheet" type="text/css" href="/pb-assets/CSS/temp-1553094239500.css">
+<link rel="preload" type="text/css" href="//widgets.sagepub.com/bookshelf/css/all.css" as="style">
+<link rel="apple-touch-icon" href="/pb-assets/Icons/sj-apple-touch-1513073710420.png">
+<meta property="og:image" content="https://journals.sagepub.com/pb-assets/Images/SJ_Twitter_Card.jpg">
+<script>
+// Remove HTML tag-items from the page tile
+//document.title=document.title.replace(/<\/?[^>]+(>|$)/g, "");
+function CM8ShowAd(ph) {} // fallback function "masking" CM8
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+var dfpSlotsReady=false;
+var globalAdParams={
+portal: {
+	name: 'Portal',
+	slot: 'portal_site.home',
+	code: '1530873931903'
+},
+search: {
+	name: 'Search',
+	slot: 'portal_site.search',
+	code: '1530874010820'
+},
+browse: {
+	name: 'Browse',
+	slot: 'portal_site.browse',
+	code: '1530874064610'
+}
+};
+var journalAdParams = {
+	serviceName: '',
+	dfp_slot: '',
+	alpha_code: ''
+};
+
+var dmdEnabledJournals=['EAR'];	
+if (dmdEnabledJournals.indexOf('')>-1) {
+	(function(w,d,s,m,n,t){
+		w[m]=w[m]||{init:function(){(w[m].q=w[m].q||[]).push(arguments);},ready:function(c){if('function'!=typeof c){return;}(w[m].c=w[m].c||[]).push(c);c=w[m].c;
+		n.onload=n.onreadystatechange=function(){if(!n.readyState||/loaded|complete/.test(n.readyState)){n.onload=n.onreadystatechange=null;
+		if(t.parentNode&&n.parentNode){t.parentNode.removeChild(n);}while(c.length){(c.shift())();}}};}},w[m].d=1*new Date();n=d.createElement(s);t=d.getElementsByTagName(s)[0];
+		n.async=1;n.src='//www.medtargetsystem.com/javascript/beacon.js?'+(Date.now().toString()).substring(0,5);n.setAttribute("data-aim",m);t.parentNode.insertBefore(n,t);
+	})(window,document,'script','AIM_126');
+
+	AIM_126.init('126-610-A5ECBB04');
+	console.debug('AIM_126 initialized');
+}
+</script>
+<script src="/pb-assets/JS/xhrCatch-1564476093570.js"></script>
+<script src="/pb-assets/JS/js.cookie.min-1517227616353.js"></script>
+<script data-cfasync="false" src="/pb-assets/JS/jquery.actual.min-1513079278967.js"></script>
+<script data-cfasync="false" src="/pb-assets/JS/imagesloaded.pkgd.min-1523539547607.js"></script>
+<script data-cfasync="false" src="/pb-assets/JS/listExpander-1563794169157.js"></script>
+<script data-cfasync="false" src="/pb-assets/JS/societiesModal-1560270859740.js"></script>
+<script data-cfasync="false" src="/pb-assets/JS/sj-utils-1568027491870.js"></script>
+<script data-cfasync="false" src="/pb-assets/JS/portalAutomation-1568027491870.js"></script>
+<script src="/pb-assets/JS/authorsPatch-1542815689637.js"></script>
+<script src="/pb-assets/microsite/lib/microsite-dfp-1560847671230.js"></script>
+<script src="/pb-assets/JS/dfp-1563794169453.js"></script>
+<script>
+if (inJournalScope()) 
+	initJournalDfp();
+else if (inMicrositeScope()) 
+	initMicrositeDfp();
+else 
+	initGlobalDfp();
+</script>
+<script>var _prum=[['id','5847762c1e20722da47b23c6'],['mark','firstbyte',(new Date()).getTime()]];(function(){var s=document.getElementsByTagName('script')[0],p=document.createElement('script');p.async='async';p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();</script></head>
+<body class="pb-ui">
+<div class="totoplink">
+<a id="skiptocontent" class="skiptocontent" href="#" tabindex="1" title="Skip to Content">Skip to main content</a>
+</div>
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5M58KS"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script type="text/javascript">
+
+
+        function initSelector(element){
+            $('.skiptocontent').removeAttr("href");
+            $( element ).parent().before( "<a id=\"top\"></a>" );
+            window.location.hash = '#top';
+            $(window).scrollTop($("#top").offset().top-100);
+            history.pushState("", document.title, window.location.pathname + window.location.search);
+        }
+
+
+        $('#skiptocontent').keydown(function (e) {
+            var code;
+            try {
+                code = (window.event) ? window.event.keyCode : event.which;
+            }
+            catch(err) {
+                code = e.keyCode || e.which;
+            }
+
+            //click Enter
+            if(code == 13){
+
+                    var mainPageId=$("#main-page-content").text();
+                if(mainPageId){
+                    initSelector('#main-page-content');
+                }else{
+
+                    var firstH1=$('h1:first').text();
+                    if(firstH1){
+                        initSelector('h1:first');
+                    }else{
+                       $('#skiptocontent').css('display','none');
+                    }
+                }
+            }
+
+        });
+
+
+</script>
+<div id="pb-page-content" data-ng-non-bindable>
+<div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+<div class="widget page-main-content none  widget-none  widget-compact-all" id="dea397f8-1087-4823-917e-a9dd6b971630">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><main role="main" data-pb-dropzone="contents">
+<div class="widget pageHeader none  widget-none  widget-compact-all" id="c44c1c4b-af27-4df5-9ca6-c88cc63f1286">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><header class="page-header">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none portalHeaderMobile stick-it-mobile widget-none  widget-compact-all" id="919864a0-5dfa-48e3-b495-8a34f8caf8d6">
+<div class="wrapped " id='portalHeaderMobileID'>
+<div class="widget-body body body-none  body-compact-all"><div class="container-fluid">
+<div class="row row-md  ">
+<div class="col-md-1-1 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget cookiePolicy none mobileOnly widget-none  widget-compact-all" id="29f0cfde-3430-44a6-a30f-6148b86c754f">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div id="cookieBannerMobile" class="cookieBanner">
+<h4 class="b-header">Cookies Notification</h4>
+<div class="b-body" tabindex="0" style="padding-bottom: 5px;">
+This site uses cookies. By continuing to browse
+the site you are agreeing to our use of cookies.
+<a href="/page/cookie-policy" title="Learn more about cookies">Find out more.</a>
+<br>
+<input id="accept-cookie-policy-mobile" type="button" title="Dismiss cookie message" value="Accept" />
+</div>
+</div>
+<script>
+$('.page-main-content').addClass('with-mobile-cookie-banner');
+$('#accept-cookie-policy-mobile').click(function(){
+    $('.page-main-content').removeClass('with-mobile-cookie-banner');
+});
+</script>
+<script type="text/javascript">
+    $("#accept-cookie-policy-mobile").click(function() {
+        $.get('/action/cookiePolicy?response=accept', function(data) {
+            $(".cookiePolicy").remove();
+        });
+
+    });
+</script></div>
+</div>
+</div>
+<div class="widget general-html-asset none  widget-none  widget-compact-all" id="74dc980e-de8a-4463-9a84-61f907f1e1ab">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="burgerContainer" onclick="portalMobileMenusDisplay(); return false;">
+<a href="#">
+<img src="/pb-assets/Images/hamburger-menu-1513073728590.svg" alt="Menus" title="Menus">
+</a>
+</div>
+<div class="mobileHeader">
+<div class="leftAlignement">
+</div>
+<div class="smallSAGELogoContainer">
+<a href="/">
+<img src="/pb-assets/Images/SJ-logo-1513073727423.svg" alt="SAGE Journals">
+</a>
+</div>
+<div class="profileContainerMobile" onclick="portalMobileLoginDisplay(); return false;">
+<a href="#"><img src="/pb-assets/Images/profile-1513073726673.svg" alt="Profile" title="Profile"><img class="loggedInArrow" src="/pb-assets/Images/Arrow-down-red-small-1498649694847.png" alt="logged-in"></a>
+</div>
+<div id="mobileSearchButton" tabindex="0" class="searchContainerMobile" onclick="portalMobileSearchDisplay(); return false;">
+<a href="#">
+<img src="/pb-assets/Images/search-1513073726663.svg" alt="Search" title="Search">
+</a>
+</div>
+</div>
+<div id="portalMobileMenusOverlay" onclick="portalMobileMenusDisplay(); return false;"></div></div>
+</div>
+</div>
+
+<div class="widget quickSearchWidget none portalQuickSearch widget-none  widget-compact-all" id="96111d90-062a-4570-8460-1eacc51a7815">
+<div class="wrapped " id='mobileQuickSearch'>
+<div class="widget-body body body-none  body-compact-all"><util:actionContext />
+<div class="quickSearchFormContainer">
+<form action="/action/doSearch" id="quickSearch" name="quickSearch" class="quickSearchForm " style="padding-left: 0px" title="Quick Search" method="get"><div class="qsFilterOption-div">
+<select class="filterOption" name="filterOption">
+<option value="allJournal">Search all journals</option>
+<option value="thisJournal" disabled>Search this journal</option>
+</select>
+</div>
+<span class="simpleSearchBoxContainer" id="meme">
+<input name="AllField" class="searchText main-search-field autocomplete" value="" type="search" id="searchText" title="Type search term here" placeholder="Search all SAGE Journals" autocomplete="off" data-history-items-conf="3" data-publication-titles-conf="3" data-publication-items-conf="3" data-topics-conf="3" data-contributors-conf="3" data-display-labels="true" data-fuzzy-suggester="true">
+</span>
+<input class="mainSearchButton searchButtons pointer" title="search" type="submit" value="Search" /></form>
+</div>
+<div class="advancedSearchLinkDropZone" data-pb-dropzone="advancedSearchLinkDropZone">
+</div></div>
+</div>
+</div>
+<div class="widget layout-frame none  widget-none  widget-compact-all" id="c1522079-3ecc-4088-be29-67e60b4693d6">
+<div class="wrapped " id='portalMobileMenus'>
+<div class="widget-body body body-none  body-compact-all"><div data-pb-dropzone="contents">
+<div class="widget general-html-asset none portalMenus widget-none  widget-compact-all" id="6e98bd07-3ab6-4563-b1ba-857cc8a7ddfc">
+<div class="wrapped ">
+<h4 class="widget-header header-none  header-compact-all">MENU</h4>
+<div class="widget-body body body-none  body-compact-all"><div class="menuXml">
+<nav>
+<ul class="shadow primaryNav">
+<li class="searchButton">
+<a href="#" role="button" tabindex="0" onclick="toggleSearchDialog('.portalHeaderContainer .searchButton'); return false;">Search
+<img src="/pb-assets/Images/search-1513073726663.svg">
+</a>
+</li>
+<li class="">
+<a id="portalBrowseLink" href="/action/showPublications">Browse</a>
+</li>
+<li class="">
+<a class="expander" href="#">Resources</a>
+<ul>
+<li class="">
+<a href="/page/resources/authors">Authors</a>
+</li>
+<li class="">
+<a href="https://journalssolutions.sagepub.com/support/home">Librarians</a>
+</li>
+<li class="">
+<a href="/page/resources/editors">Editors</a>
+</li>
+<li class="">
+<a href="/page/resources/societies">Societies</a>
+</li>
+</ul>
+</li>
+<li class="advancedSearchPortal">
+<a href="/search/advanced">Advanced Search</a>
+</li>
+</ul>
+</nav>
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+
+<div class="widget layout-frame none portalHeaderContainer  stick-it-header widget-none  widget-compact-all" id="da2dfa63-a90d-4940-a652-36aa0f55e2b5">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div data-pb-dropzone="contents">
+<div class="widget responsive-layout none portalHeader widget-none  widget-compact-all" id="e00da0da-a7b9-4046-ac29-04b0a9b67218">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container-fluid">
+<div class="row row-md  ">
+<div class="col-md-1-1 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-image none sageLogo widget-none  widget-compact-all" id="26d3e1a0-8c43-4c47-9c58-988e63152cc8">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><a href="/" title="SAGE Journals">
+<img src="/pb-assets/Images/SJ -LOGO-1513073727437.png" alt="SAGE Journals" />
+</a></div>
+</div>
+</div>
+<div class="widget general-html-asset none portalMenus widget-none  widget-compact-all" id="342dde64-c493-4c7d-b859-3597e6f52c86">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="menuXml">
+<nav>
+<ul class="shadow primaryNav">
+<li class="searchButton">
+<a href="#" role="button" tabindex="0" onclick="toggleSearchDialog('.portalHeaderContainer .searchButton'); return false;">Search
+<img src="/pb-assets/Images/search-1513073726663.svg">
+</a>
+</li>
+<li class="">
+<a id="portalBrowseLink" href="/action/showPublications">Browse</a>
+</li>
+<li class="">
+<a class="expander" href="#">Resources</a>
+<ul>
+<li class="">
+<a href="/page/resources/authors">Authors</a>
+</li>
+<li class="">
+<a href="https://journalssolutions.sagepub.com/support/home">Librarians</a>
+</li>
+<li class="">
+<a href="/page/resources/editors">Editors</a>
+</li>
+<li class="">
+<a href="/page/resources/societies">Societies</a>
+</li>
+</ul>
+</li>
+<li class="advancedSearchPortal">
+<a href="/search/advanced">Advanced Search</a>
+</li>
+</ul>
+</nav>
+</div></div>
+</div>
+</div>
+<div data-widget-def="layout-frame" data-widget-id="921d6e4c-dde7-4a4a-940e-e61bceec84b0" class="inlineBlock" data-module-name="login-box" aria-label="Click here to sign in">
+
+<div class="widget layout-frame none portalLoginContainer widget-none  widget-compact-all" id="921d6e4c-dde7-4a4a-940e-e61bceec84b0">
+<div class="wrapped " id='portalMobileLogin'>
+<div class="widget-body body body-none  body-compact-all"><div data-pb-dropzone="contents">
+<div class="widget general-html-asset none  widget-none  widget-compact-all" id="66fe8e60-9b5c-42dc-b5da-3aff92108756">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div id="portalMobileLoginOverlay"></div></div>
+</div>
+</div>
+<div class="widget layout-frame none individualLoginContainer widget-none  widget-compact-all" id="8d34d6ab-387d-46cb-a6f8-54b88fb03a37">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div data-pb-dropzone="contents">
+<div class="widget literatumNavigationLoginBar none portalLoginBar widget-none  widget-compact-all" id="25793432-627d-46a1-8b30-1007ede2e8c2">
+<div class="wrapped " id='portalLoginBar'>
+<div class="widget-body body body-none  body-compact-all"><div class="sage-login-widget">
+<div class="my-profile-col id-person-deactivated" name="">
+<img class="user-logo my-profile-logo deactivated" src="" />
+<div class="myprofile-label">Sign In</div>
+</div>
+<div class="institution-col id-institution-deactivated" name="">
+<img class="user-logo institution-logo deactivated" src="" title="You are not signed in via an institution" />
+<div class="institutionLabel">Institution</div>
+</div>
+<div class="society-col id-society-deactivated" name="">
+<img class="user-logo society-logo deactivated" src="" title="You are not signed in via an societyName" />
+<div class="societyLabel">Society</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget layout-frame none  widget-none  widget-compact-all" id="5c2ac0ea-bc85-4b38-bf75-eae5d52087fa">
+<div class="wrapped " id='enhancedLoginPanel'>
+<div class="widget-body body body-none  body-compact-all"><div data-pb-dropzone="contents">
+<div class="widget general-html-asset none  widget-none  widget-compact-all" id="a49810ce-97fc-49b7-8ada-ec03b1ee007d">
+<div class="wrapped ">
+
+<div class="widget-body body body-none  body-compact-all"><script>
+function initLoginBox() {
+	if (hasPersonIdentity())
+		$('.profileContainerMobile img.loggedInArrow').show();
+	else {
+		$('.profileContainerMobile img.loggedInArrow').hide();
+		//$('.myprofile-label').text("Sign In");
+	};
+	$('#portalLoginBar .sage-login-widget').attr('tabindex', '0');
+	$('#portalLoginBar .sage-login-widget').prepend('<span aria-hidden="true" style="min-width:105px;padding-top:15px;">Access Options:</span>');
+	$('.sage-login-widget img.user-logo').each(function(){
+		//console.log($(this).attr('src'));
+		if($(this).attr('src').indexOf('templates')===-1)
+			$(this).addClass('bannerImage');
+		else
+			$(this).removeClass('bannerImage');
+	});
+
+	$('div.myprofile-label, div.institutionLabel, div.societyLabel, span.institutionBannerLogo, .lean-library-text img').attr('aria-hidden', 'true');
+	
+	initMyProfileInfo();
+	initInstitutionInfo();
+	initSocietyInfo();
+
+	if (inPbEditorMode())
+		$('.sage-login-widget').attr('onclick', 'toggleLoginPopup(true);return false;');
+
+	if (isIE()) {
+		$("img.user-logo").each(function () {
+			let imgUrl = $(this).prop("src");
+			if (imgUrl) {
+				$(this).css("backgroundImage", 'url(' + imgUrl + ')').addClass("ie-object-fit");
+				$(this).prop("src","");
+			}
+		});
+	}
+}
+</script>
+<div id="login-popup" tabindex="0" aria-label="Access Options" role="dialog" aria-modal="true">
+<div id="loginbox-header">
+<div class="widget general-rich-text none  widget-none  widget-compact-all" id="ab5cfb99-0d5f-4648-abeb-189fc1e5d9e8">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div id="rich-text-ab5cfb99-0d5f-4648-abeb-189fc1e5d9e8" class="pb-rich-text">
+<h2 style="text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: large;">Access Options</span></strong></h2>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: medium;">You can be signed in via any or all of the methods shown below at the same time.</span></p>
+</div></div>
+</div>
+</div>
+</div>
+<div id="loginbox-body">
+<div class="widget responsive-layout none loginColumns widget-none  widget-compact-all" id="eadd9cf1-2ff3-492f-bd4a-be73f504ad42">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container-fluid">
+<div class="row row-md  ">
+<div class="col-md-1-3 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html-asset none login-column widget-none  widget-compact-all" id="fc732953-7d6e-42ae-8639-288f284c5293">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><h3 class="login-profile" aria-describedby="info-profile">My Profile<span class="login-expander"></span></h3>
+<div class="midSection">
+<div id="user-login-form">
+<div class="login-info" id="info-profile">
+<p>Sign in here to access free tools such as favourites and alerts, or to access personal subscriptions</p>
+</div>
+<div class="mobile-expand">
+<div class="widget literatumLoginWidget none  widget-none  widget-compact-all" id="058f11ae-cce1-45d8-9a12-b8a2cc664af7">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="loginWidget">
+<div class="loginDropZone1" data-pb-dropzone="loginDropZone1">
+</div>
+<div id="login_left">
+<form action="/action/doLogin" id="frmLogin" name="frmLogin" method="post"><input type="hidden" name="loginFormId" value="058f11ae-cce1-45d8-9a12-b8a2cc664af7" /><input type="hidden" name="loginUri" value="/action/cookieAbsent" /><input type="hidden" name="redirectUri" value="/action/cookieAbsent" /><input type="hidden" name="submitViaAJAX" value="true" />
+<p>
+</p>
+<table class="loginForm" summary="">
+<tr>
+<td role="alert" class="error">
+<span role="alert" class="useAJAX_error" style="display: none;">The email address and/or password entered does not match our records, please check and try again.</span></td>
+</tr>
+<tr>
+<th><label for="login" class="userNameLoginLabel">Email <span class="required-field">(required)</span></label></th>
+<td><input id="login" class="textInput" type="text" name="login" value="" size="15" required="true" /></td>
+</tr>
+<tr>
+<th><label for="password" class="passwordLoginLabel">Password <span class="required-field">(required)</span></label></th>
+<td><input id="password" class="textInput" type="password" name="password" value="" autocomplete="off" required="true" /></td>
+</tr>
+<tr>
+<td colspan="2"><input id="savePassword" type="checkbox" name="savePassword" value="1" checked="checked" /><label for="savePassword">Remember me</label></td>
+</tr>
+</table>
+<input class="formbutton defButton" role="button" type="submit" name="submit" value="Sign in" tabindex="0" data-item-name="sign-in" aria-label="Sign In" /><br />
+<br />
+<div id="passwordReminder"><a href="/action/requestResetPassword?redirectUri=">Forgotten your password?</a></div></form>
+<script type="text/javascript"><!-- //
+function runSearchSetup(){_tmp=document.forms['frmLogin'];if(_tmp){_tmp=_tmp['login'];}};window.onload = runSearchSetup; 
+// -->
+</script>
+</div>
+<div id="login_right">
+<div class="loginDropZone" data-pb-dropzone="loginDropZone">
+</div>
+</div>
+<div style="clear:both"></div>
+</div></div>
+</div>
+</div>
+<div class="register-section topSeparator">
+<p style="text-align:left;margin:5px 0">I don't have a profile</p>
+<div class="blueGrayButton smallButton">
+<a class="register-link" data-item-name="create-profile" role="button" aria-label="Register new account" href="/action/registration">Create Profile</a>
+</div>
+</div>
+</div>
+</div>
+<div id="user-info">
+<div class="bottomSeparator">
+<p class="signed-as">I am signed in as:</p>
+</div>
+<div class="mobile-expand">
+<div id="avatar-image">
+</div>
+<div id="user-name">
+</div>
+<div id="view-my-account">
+<a data-item-name="view-my-account" href="/action/showPreferences?menuTab=AccountInfo">View My Account</a>
+</div>
+<br>
+<div class="logout-section blueGrayButton smallButton topSeparator">
+<a class="register-link logOut" data-item-name="logout" href="/action/doLogout?redirectUri=#" role="button" aria-label="Sign out" id="ru-user">Logout</a>
+</div>
+<br>
+</div>
+</div>
+</div>
+<script>
+function initMyProfileInfo() {
+	$('.id-person-activated>img.user-logo').attr('title', 'You are signed in to your personal profile');
+	$('.id-person-deactivated>img.user-logo').attr('title', 'You are not signed in to your personal profile');
+	$('form[name="frmLogin"] br').hide();
+	$('#user-login-form #passwordReminder').insertBefore('#user-login-form form[name="frmLogin"] tr:last-child');
+	$('#ru-user').attr('href', '/action/doLogout?redirectUri='+window.location.href);
+	$('#user-login-form input[type="submit"]').attr('aria-label','Sign In to my profile');
+
+	if (hasPersonIdentity()) {
+		$('#user-info').show();
+		$('#user-login-form').hide();
+	}
+	else {
+		$('#user-info').hide();
+		$('#user-login-form').show();
+	}
+
+	if ($('#user-name p').length===0){
+		let $user=$('#portalLoginBar .my-profile-col.id-person-activated');
+		if ($user && $user.attr('name') && $user.attr('name').length>0) {
+			$('<p>'+$user.attr('name')+'</p>').appendTo('#user-name');
+		}
+	}
+}
+$('#frmLogin input[type="submit"]').click(function() {
+	$(this).closest('#frmLogin').find('.loginForm .useAJAX_error').hide();
+});
+</script></div>
+</div>
+</div>
+<div class="widget general-rich-text none login-instructions widget-none  widget-compact-all widget-border-toggle" id="e9322ee9-2ba1-4166-8ae3-b6dfde7ae567">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all body-border-toggle"><div id="rich-text-e9322ee9-2ba1-4166-8ae3-b6dfde7ae567" class="pb-rich-text">
+<p>With my free profile I can:</p>
+<ul>
+<li>Set up&nbsp;<a href="/action/showPreferences?menuTab=favorites">favourite journals</a>&nbsp;and register for&nbsp;<a href="/action/showPreferences?menuTab=Alerts">email alerts</a></li>
+<li>List&nbsp;<a href="/search/saved">saved searches</a></li>
+<li><a href="/action/showPreferences?menuTab=AccountInfo">Edit account details</a></li>
+<li><a href="/action/showPreferences?menuTab=society">Activate personal subscriptions</a>&nbsp;and&nbsp;<a href="/action/showPreferences?menuTab=licenses">access content</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-3 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-html-asset none login-column widget-none  widget-compact-all" id="414e61c7-547d-4bd7-b101-7b6264ef1b26">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><h3 class="login-institution" aria-describedby="info-inst">Institution<span class="login-expander"></span></h3>
+<div class="midSection">
+<div id="institution-login-form">
+<div class="login-info" id="info-inst">
+<p>If you have access to journal content via a university, library or employer, sign in here</p>
+</div>
+<div class="mobile-expand">
+<br>
+<div class="smallButton redButton shibbolethButton">
+<a data-item-name="shibboleth" href="/action/ssostart?redirectUri=" role="button" aria-label="Shibboleth sign in" class="Shibboleth">Shibboleth</a>
+</div>
+<div class="smallButton redButton athensButton">
+<a data-item-name="open-athens" href="/action/ssostart?idp=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&amp;redirectUri=" role="button" aria-label="Open Athens sign in" class="OpenAthens">Open Athens</a>
+</div>
+</div>
+</div>
+<div id="institution-info">
+<div class="bottomSeparator">
+<p class="signed-as">I am signed in via:</p>
+</div>
+<div class="mobile-expand">
+<div class="widget literatumInstitutionBanner none  widget-none  widget-compact-all" id="8e68a7e6-e521-477d-a8eb-8029f71977c4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="welcome">
+<div class="portalInsitutionalButton"><a href="#" onclick="panelToggle('portalInstitutionalLogin', 'myAccountLoginPanel'); return false;">Institution</a></div>
+</div></div>
+</div>
+</div>
+<p></p>
+<div id="inst-login-status">
+</div>
+</div>
+</div>
+</div>
+<script>
+function setInstitutionLoginStatus() {
+	if ($('#inst-login-status p').length) return;
+	let samlExists=($('.access-via-samel').length)>0;
+	let appendTag='';
+	if (samlExists) {
+		appendTag+='<p>Signed in via: <b>a federated identity</b></p>';
+	}
+	else {
+		appendTag+='<p>Sign in via: <a data-item-name="shibboleth" href="/action/ssostart?redirectUri=" class="Shibboleth">Shibboleth</a></p>';
+		appendTag+='<p>Sign in via: <a data-item-name="open-athens" href="/action/ssostart?idp=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&amp;redirectUri=" class="OpenAthens">Open Athens</a></p>';
+	}
+	$('#inst-login-status').append(appendTag);
+}
+function setRedirectUrl() {
+	let currentUrl = window.location.pathname;
+	$('.Shibboleth').attr("href", $('.Shibboleth').attr('href') + currentUrl);
+	$('.OpenAthens').attr("href", $('.OpenAthens').attr('href') + currentUrl);
+}
+function initInstitutionInfo() {
+	setInstitutionLoginStatus();
+	setRedirectUrl();
+	let instName=$('.id-institution-activated').attr('name') || 'your institution';
+	if ($('.id-institution-activated>img.user-logo').attr('title')===undefined)
+		$('.id-institution-activated>img.user-logo').attr('title', 'You are authenticated via '+instName);
+	else 
+		$('.id-institution-activated>img.user-logo').attr('title', $('.id-institution-activated>img.user-logo').attr('title').replace('signed in', 'authenticated').replace('your institution', instName));
+	$('.id-institution-deactivated>img.user-logo').attr('title', 'You are not authenticated via an institution');
+	$('#institution-info .portalInsitutionalButton').after('<div><p style="font-size: 16px">my institutional subscription</p></div>');
+
+	//if ($('#institution-info .portalInsitutionalButton a').length) $('#institution-info .portalInsitutionalButton a').text();
+
+	if (hasInstitutionIdentity()) {
+		$('#institution-info').show();
+		$('#institution-login-form').hide();
+	}
+	else {
+		$('#institution-info').hide();
+		$('#institution-login-form').show();
+	}
+}
+</script></div>
+</div>
+</div>
+<div class="widget general-rich-text none login-instructions widget-none  widget-compact-all widget-border-toggle" id="b7fef331-bd43-4ab1-955f-ecd337b88646">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all body-border-toggle"><div id="rich-text-b7fef331-bd43-4ab1-955f-ecd337b88646" class="pb-rich-text">
+<p>With institutional access I can:</p>
+<ul>
+<li>View or download all content the institution has subscribed to.</li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-3 ">
+<div class="contents" data-pb-dropzone="contents2">
+<div class="widget general-html-asset none login-column widget-none  widget-compact-all" id="3490cd13-4dff-4c77-9221-72e8b508ebbc">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><h3 class="login-society" aria-describedby="info-society">Society <span class="login-expander"></span></h3>
+<div class="midSection">
+<div id="society-login-form">
+<div class="login-info" id="info-society">
+<p>If you have access to journal via a society or associations, read the instructions below</p>
+</div>
+<div class="mobile-expand">
+<div class="widget ssoLoginWidget none ym-sso-login widget-none  widget-compact-all" id="f2fc11e2-1981-45c8-a8b9-54b2f83b9a3c">
+<div class="wrapped " id='society-login-ym'>
+<div class="widget-body body body-none  body-compact-all"><div class="sage-sso-doLogin">
+<form action="/action/ymDoLogin" id="frmYMDoLogin" name="frmYMDoLogin" method="post"><div class="sage-sso-label">Members of _ can log in with their society credentials below</div>
+<div class="richTextDropZone" data-pb-dropzone="richTextDropZone">
+</div>
+<table class="loginForm" summary="">
+<table class="loginForm" summary="">
+<tr>
+<th><label for="sso-login" class="userNameLoginLabel">Username <span class="required-field">(required)</span></label></th>
+<td>
+<input id="sso-login" class="textInput" type="text" name="login" value="" size="15" />
+</td>
+</tr>
+<tr>
+<th><label for="sso-password" class="passwordLoginLabel">Password <span class="required-field">(required)</span></label></th>
+<td>
+<input id="sso-password" class="textInput" type="password" name="password" value="" autocomplete="off" />
+</td>
+</tr>
+<tr>
+<th><label for="society" class="memberSSOSocietiesList">Society <span class="required-field">(required)</span></label></th>
+<td>
+<select name="society" class="sso-select-society" id="society-token-f2fc11e2-1981-45c8-a8b9-54b2f83b9a3c">
+<option value="ISREAPI">The Int Society for Research on Emotion</option>
+<option value="ACV">American College of Veterinary Pathologists</option>
+</select>
+</td>
+</tr>
+</table>
+</table>
+<input type="hidden" name="redirectUri" value="/action/cookieAbsent" />
+<input type="hidden" name="loginUri" value="/action/cookieAbsent" />
+<input type="hidden" name="submitViaAJAX" value="true" />
+<tr>
+<td role="alert" class="error">
+<span class="useAJAX_SSO_error error" style="display: none;">The email address and/or password entered does not match our records, please check and try again.</span></td>
+</tr>
+<input class="sso-submit-button defButton" role="button" type="submit" name="submit" value="Sign in" tabindex="0" aria-label="Sign In via a society" /><br /></form>
+</div></div>
+</div>
+</div>
+<div class="widget general-rich-text none  widget-none  widget-compact-all" id="5400f2c3-12ae-4d58-81ff-11246a8f0f87">
+<div class="wrapped " id='society-info-text'>
+<div class="widget-body body body-none  body-compact-all"><div id="rich-text-5400f2c3-12ae-4d58-81ff-11246a8f0f87" class="pb-rich-text">
+<p>Access to society journal content varies across our titles.</p>
+<p>If you have access to a journal via a society or association membership, please browse to your society journal, select an article to view, and follow the instructions in this box.</p>
+<p>Contact us if you experience any difficulty logging in.</p>
+</div></div>
+</div>
+</div>
+<div class="topSeparator">
+<p style="text-align:left">Some society journals require you to create a personal profile, then activate your society account</p>
+<div class="blueGrayButton smallButton">
+<a data-item-name="activate-society" href="/page/resources/societies/activate-your-membership" role="button">Activate my Society Account</a>
+</div>
+</div>
+</div>
+</div>
+<div id="society-info">
+<div class="bottomSeparator">
+<p class="signed-as">I am signed in via:</p>
+</div>
+<div class="mobile-expand">
+<div class="widget literatumInstitutionBanner none  widget-none  widget-compact-all" id="9abd0442-8f9c-4410-8840-acc27eb9f8ca">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="welcome">
+<div class="portalInsitutionalButton"><a href="#" onclick="panelToggle('portalInstitutionalLogin', 'myAccountLoginPanel'); return false;">Institution</a></div>
+</div></div>
+</div>
+</div>
+<div class="logout-section blueGrayButton smallButton">
+<a class="register-link logOut" data-item-name="logout" href="/action/doLogout?redirectUri=#" role="button" aria-label="Sign out" id="ru-society">Logout</a>
+</div>
+</div>
+</div>
+</div>
+<div class="widget general-html none  widget-none  widget-compact-all" id="05f287e0-10b6-4da1-bdd9-72135b7fc1cf">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><script>
+function getYmCount() {
+    let rv=0;
+    try{
+        rv=Number("2");
+        if (isNaN(rv)) rv=0;
+    }
+    catch (e) {}
+    return rv;
+}
+function getSocietyJournals(index) {
+    let rv="";
+    try {
+        switch (index) {
+            case 1:rv="vet"; break;
+            case 2:rv="emr"; break;
+            case 3:rv=""; break;
+            case 4:rv=""; break;
+            case 5:rv=""; break;
+            default:break;
+        }
+    }
+    catch (e) {}
+    return rv;
+}
+</script></div>
+</div>
+</div>
+<script>
+$('#ru-society').attr('href', '/action/doLogout?redirectUri='+window.location.href);
+function initSocietyInfo() {
+	let societyName=$('.id-society-activated').attr('name') || 'your society';
+	if ($('.id-society-activated>img.user-logo').attr('title')===undefined)
+		$('.id-society-activated>img.user-logo').attr('title', 'You are authenticated via '+ societyName);
+	else 
+		$('.id-society-activated>img.user-logo').attr('title', $('.id-society-activated>img.user-logo').attr('title').replace('signed in','authenticated').replace('your society', societyName));
+
+	$('.id-society-deactivated>img.user-logo').attr('title', 'You are not authenticated via a society');
+	$('#society-info .portalInsitutionalButton').after('<div><p style="font-size: 16px">my society or association</p></div>');
+
+	if (hasSocietyIdentity()){
+		$('#society-info').show();
+		$('#society-login-form').hide();
+	}
+	else {
+		$('#society-info').hide();
+		$('#society-login-form').show();
+	}
+}
+function getYmSocietyIndex(){
+	let count = getYmCount() || 0;
+	let currentJournal = "";
+	if (currentJournal.length!==0 && count>0) {
+		//console.debug("Looking through "+count+" societies for journal code: "+currentJournal);
+		for (i=0; i<count; i++) {
+			if (getSocietyJournals(i+1).indexOf(currentJournal)!==-1) {
+				console.debug('Journal '+currentJournal+' found for configured society-'+i);
+				return i;
+			}
+		}
+	}
+	//console.debug('No linked YM SSO society found for current journal');
+	return -1;
+}
+$(function() {
+	let ymSocietyIndex=getYmSocietyIndex();
+	if (ymSocietyIndex!==-1){
+		try{
+			let societyOption=$('.sso-select-society option')[ymSocietyIndex];
+			$('.sage-sso-label').text(function(){
+				return $(this).text().replace('_', societyOption.text);
+			});
+
+			$('.sso-select-society').val(societyOption.value);
+			//$('.sso-select-society').closest('tr').hide();
+		}
+		catch(e) {}
+		$('#society-login-form .ym-sso-login, #denial-2 .ym-sso-login').show()
+		$('#society-info-text, #society-login-form .topSeparator').hide();
+	}
+	else{
+		$('#society-login-form .ym-sso-login, #denial-2 .ym-sso-login').hide();
+		// Check if society ad is present
+		if ($('#society-login-form .literatumAd').length!==0) {
+			$('#society-info-text, #society-login-form .topSeparator').hide();
+		}
+		else {
+			$('#society-info-text, #society-login-form .topSeparator').show();
+		}
+	}
+	if (hasSocietyIdentity())
+		$('#denial-2 .ym-sso-login').hide();
+});
+$('#frmYMDoLogin input[type="submit"]').click(function() {
+	$(this).closest('#frmYMDoLogin').find('.useAJAX_SSO_error').hide();
+});
+</script></div>
+</div>
+</div>
+<div class="widget general-rich-text none login-instructions widget-none  widget-compact-all widget-border-toggle" id="7f8ccf20-e508-4dc4-8bd0-3b37447a92da">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all body-border-toggle"><div id="rich-text-7f8ccf20-e508-4dc4-8bd0-3b37447a92da" class="pb-rich-text">
+<p>With society access I can:</p>
+<ul>
+<li>View or download all the content the society has access to.</li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div id="loginbox-footer">
+<div class="widget general-rich-text none desktopOnly widget-none  widget-compact-all" id="6531387b-cd17-4273-a2e3-fe5456ba9911">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div id="rich-text-6531387b-cd17-4273-a2e3-fe5456ba9911" class="pb-rich-text">
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: small; text-align: center;">Need Help?&nbsp;</span><a href="/page/help/home" style="font-family: arial, helvetica, sans-serif; font-size: small; text-align: center;">Contact SAGE</a></p>
+</div></div>
+</div>
+</div>
+<div class="mobileOnly blueGrayButton smallButton" style="padding-top:10px">
+<a href="/page/help/home" style="margin-bottom:10px">Need Help? Contact SAGE</a>
+</div>
+</div>
+<input tabindex="0" class="closeLoginPopup" onclick="toggleLoginPopup(false);return false;" src="/pb-assets/Icons/Cross-no-outline-1560270847187.svg" title="Close sign-in menu" type="image">
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="widget general-html-asset none  widget-none  widget-compact-all" id="4a3dbd8f-4c00-441a-83b1-f52d15c947f5">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div id="searchBarContainer">
+<div id="mainSearchBar" class="searchBar" role="dialog" tabindex="0">
+<div class="widget quickSearchWidget none portalQuickSearch widget-none  widget-compact-all" id="5970b95b-1daa-4b7c-8aac-d717c09c893a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><util:actionContext />
+<div class="quickSearchFormContainer">
+<form action="/action/doSearch" id="quickSearch" name="quickSearch" class="quickSearchForm " style="padding-left: 0px" title="Quick Search" method="get"><div class="qsFilterOption-div">
+<select class="filterOption" name="filterOption">
+<option value="allJournal">Search all journals</option>
+<option value="thisJournal" disabled>Search this journal</option>
+</select>
+</div>
+<span class="simpleSearchBoxContainer" id="meme">
+<input name="AllField" class="searchText main-search-field autocomplete" value="" type="search" id="searchText" title="Type search term here" placeholder="Search all SAGE Journals" autocomplete="off" data-history-items-conf="0" data-publication-titles-conf="0" data-publication-items-conf="0" data-topics-conf="0" data-contributors-conf="0" data-display-labels="true" data-fuzzy-suggester="true">
+</span>
+<input class="mainSearchButton searchButtons pointer" title="search" type="submit" value="Search" /></form>
+</div>
+<div class="advancedSearchLinkDropZone" data-pb-dropzone="advancedSearchLinkDropZone">
+<div class="widget general-html none journalAdvancedSearch widget-none  widget-compact-all" id="069075cf-3cbd-4987-8bbb-f8fcf8ef1c6a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><a class="advancedSearchLink" href="/search/advanced">Advanced Search</a></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<input tabindex="0" class="close-button" onclick="closeSearchDialog();return false;" src="/pb-assets/Icons/Error-redcross-1568027500033.svg" type="image" role="button">
+</div>
+</div>
+<script>
+	if (inPortalHome()) $('#mainSearchBar').remove();
+</script></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget layout-frame none page-header-divider widget-none  widget-compact-all" id="acde3693-b9e2-455b-9e33-b0c307a98fad">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div data-pb-dropzone="contents">
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</header></div>
+</div>
+</div>
+<div class="widget layout-one-column none  widget-none  widget-compact-all" id="d0f0cfab-b768-49e6-aa02-545c2f1aafb2">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid">
+<div class="width_1_1">
+<div data-pb-dropzone="center">
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget pageBody none  widget-none  widget-compact-all" id="b90442ed-bd15-483c-9c3d-448b7c0604f7">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+<div class="page-body pagefulltext">
+<div data-pb-dropzone="main">
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget layout-one-column none page-footer-divider widget-none  widget-compact-all" id="02555f61-8272-46aa-928d-70d0a3542f35">
+<div class="wrapped " id='SAGEPageFooterDivider'>
+<div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid">
+<div class="width_1_1">
+<div data-pb-dropzone="center">
+</div>
+</div>
+</div></div>
+</div>
+</div>
+
+<div class="widget general-html-asset none  widget-none  widget-compact-all" id="ad33bbde-fc41-4c1b-8fef-01a1aacd0924">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+
+<script>
+if (""!=="")
+    $('div.Article.information div:first-of-type').prepend("<i>,</i>");
+</script>
+<script>
+// Here we keep the JS functions that use context sensitive parameters, since these are not working outside of HTML assets (e.g. in js files)
+function removeTlaFromTaxonomyFacet() { //SAGE-2005
+    $("li.ConceptID.parentFacets").each(function(){
+        let $link = $(this).find(".facet-link-container a");
+        if ($link.length) {
+            if ($link[0].innerHTML.toLowerCase().trim() === "".toLowerCase()) {
+                $(this).css("display", "none"); // hide this 
+                //console.debug("Removed TLA code from taxonomy filter");
+                if ($(this).parents(".hiddenChildrenFacets").length) { // If TLA code found in hidden facets, change the More(n) text to More(n-1)
+                    $(this).parents("div.facetContainer").find("div.toggleMoreFacets a.facet-link").each(function(){
+                        if (this.innerHTML.toLowerCase().indexOf("more (") !== -1) {
+                            let moreNumber = this.innerHTML.match(/\d+/)[0];
+                            if (moreNumber > 1)
+                                $(this).text($(this).text().replace(moreNumber, moreNumber - 1));
+                            else // if only one was hidden, no need to expand
+                                $(this).parent().css("display", "none");
+                        }
+                    });
+                }
+            }
+        }
+    });
+}
+function cpTitlesDates() {
+    if (''==='cp' || ''==='cpv') {
+        $('.pubDate-left').addClass('not-show-important');
+    }
+}
+function deniedPdfAccess() {
+    if ($('#accessOptionsTop').length > 0) { // clicked on page with access denial bar
+        toggleDenialBar();
+        $('#accessOptionsTop input[name="login"]').focus();
+    } else { // no access denial bar
+        window.location = '/doi/pdf/';
+    }
+}
+function accesibilityImageAltText() {
+    $('.moreFromThisJournalModules img').each(function(){
+        if ($(this).attr('alt')===undefined) $(this).attr('alt', '');
+    });
+    $('.portalResourcesContainer img, .tellUsImage img').attr('alt', '');
+    $('.relatedJournalsTextContainer').each(function(){
+        let $journalText = $(this);
+        $journalText.closest('.relatedJournalsColumn>a').append($journalText.text());
+        $journalText.remove();
+    });
+    $('.relatedJournalsImageContainer img').each(function(){
+        let $coverImage = $(this);
+        let $parent = $(this).parent();
+        $coverImage.addClass('relatedJournalsImageContainer');
+        $coverImage.prependTo($coverImage.closest('.relatedJournalsColumn>a'));
+        $parent.remove();
+    });
+    $('td.savedSearch.savedResult:nth-child(4) img').attr('alt', function() {
+        return $(this).attr('alt').replace('alert type', 'saved date');
+    })
+
+    $('td.savedSearch.savedResult:nth-child(5) img').attr('alt', function() {
+        return $(this).attr('alt').replace('alert type', 'last run date');
+    })
+}
+if ($('.creative-commons-badge.cc-by').length){
+	console.debug('Hiding permissions button due to CC-BY type of article.');
+	$('a.permissionsTool').closest('div').css('display', 'none');
+}
+else 
+    $('a.permissionsTool').closest('div').css('display', 'flex');
+
+// display denial access bar if user not authenticated or in PB edit mode
+try {
+    if (!hasArticleAccessHeuristic() || $('.pb-wrap.pb-widget').length > 0) 
+        $('.pb-ui .accessOptionsBar').css('display', 'block');
+    else
+        $('.pb-ui .accessOptionsBar').hide();
+}
+catch(e){
+    $('.pb-ui .accessOptionsBar').hide();
+}
+
+if ($('span.related-Article-wrapper span').length===0) 
+    $('span.related-Article-wrapper').hide();
+
+cpTitlesDates();
+
+// Add data module attributes in related journals HTML widget
+$(".otherSociety").attr("data-module-name", "related-journals");
+$(".otherSocietyButton #viewMoreText").attr("data-item-name", "view-more");
+$(".otherSocietyButton #viewLessText").attr("data-item-name", "view-fewer");
+$(".otherSocietyButton #viewFewerText").attr("data-item-name", "view-fewer");
+
+$('#share-tabs ul li a[title="show Social Media"]').attr("data-item-name", "view-social-media");
+$('#share-tabs ul li a[title="show Email"]').attr("data-item-name", "view-email");
+$('#share-tabs ul li a[title="show Share Access"]').attr("data-item-name", "view-share-access");
+
+//Move related asrticles indication into proper place:
+$('span.related-Article-wrapper').insertAfter('div.articleInformation');
+
+$('.related-article-title').text(function() {
+    return $(this).text().replace(/\s*:/, ': ');
+});
+$('.online-pub-date').text(function() {
+    return $(this).text().replace(/-/g, ' ');
+});
+$('.contentItemVol').text(function() {
+    return $(this).text().replace('Vol 0,', '').replace('Vol.', 'Vol ').replace(/\s*,/, ',');
+});
+$('.issueFormat').text(function() {
+    return $(this).text().replace('issue', 'Issue').replace('vol.', 'Vol').replace(/\s*,/, ',');
+});
+//Remove trailing dot from a.deleteAccountLink
+$('a.deleteAccountLink').text('Delete your account');
+
+//Remove trailing dot from a.deleteAccountLink
+$('a#copyToClipBoard').text('Copy to Clipboard');
+
+// Rename "Views" to "Views and downloads"
+$('.view-count').text(function() {
+    if (inJournalScope())
+        return $(this).text().replace('Views:', 'Views & downloads:');
+    else
+        return $(this).text();
+});
+
+// Keep only anchor element if already in citedBy page
+if ($('.view-all-citedBy a').attr('href') === window.location.pathname)
+    $('.view-all-citedBy a').attr('href', '');
+// Add #top-content-scroll on 'View All' citedBy link
+$('.view-all-citedBy a').attr('href', $('.view-all-citedBy a').attr('href') + '#top-content-scroll');
+
+// Change MR/MC panel text
+$('#mostReadCitedPage .online-pub-date').text(function() {
+    return $(this).text().replace("Online publication date", "First published");
+});
+
+//Wait for images to load, before deciding whteher to move the related journals 
+$('.journalHomeFourRight').imagesLoaded().always(function(){
+    moveRelatedJournals();
+    //console.debug('Ad(right) image is loaded');
+});
+
+if (!inJournalScope() && $('#mainSearchBar select.filterOption option[disabled]').length>0){
+    $('#mainSearchBar select.filterOption').attr('disabled','');
+}
+
+// Fix for 'more...' label falling into 2nd line
+if ($('.authors .more-than').length && $('.authors .more-than').offset().left <= $('.authors .hlFld-ContribAuthor').offset().left) $('.authors .more-than').addClass('not-show-important');
+
+$('.related-articles').each(function(){
+    if($(this).find('.multi-related-article').length)
+        $(this).addClass('multi-related-articles');
+
+})
+$('.lean-library-text.subscribed p b').text($('.sage-login-widget div.institutionLabel').text());
+/*
+try{
+    var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutationRecord) {
+            if (mutationRecord.type == 'childList') {
+                //console.log('A child node has been added or removed.');
+                let refPopup=document.getElementById('openBalloon');
+                if (refPopup!==null){
+                    if (refPopup.style.right==='0px') {
+                        addClass('openBalloon', 'flip-balloon');
+                        //let ref=$(refPopup).closest('span.ref').prev('a.ref')[0];
+                        //if ($(ref).width()>250 || ref.getBoundingClientRect().left<0.6*window.innerWidth)
+                        //    addClass('openBalloon', 'pull-left');
+                    }
+                }
+            }
+        });
+    });
+
+    var target = document.getElementById('25e8d4fe-c5d2-4686-bdef-3b125e01db4b');
+    if (target)
+        observer.observe(target, {attributes:false, childList:true, subtree:true });
+} catch(e) {
+}
+*/
+initLoginBox();
+//specialCollectionDuplicate();
+removeTlaFromTaxonomyFacet();
+moveRelatedJournals();
+rearrangeMostReadCitedPage();
+accesibilityImageAltText();
+removeDuplicateIds();
+
+if (pbPreviewOn===1 && !inMicrositeScope()){
+    console.debug('Running document ready JS...');
+    docReady();
+}
+/////////////////////////////////////////////
+$(window).bind('orientationchange', function(event){
+    try {
+		$('input[name=AllField]').autocomplete('close'); 
+	} catch(e) {}
+});
+
+$(window).scroll(function(){
+    let scroll = $(window).scrollTop();
+    try {
+        if(scroll>1)
+            $('input[name=AllField]').autocomplete('close');
+    }
+    catch(e) {}
+ });
+ //console.debug('Journal: , Issue: , Article: ');
+</script></div>
+</div>
+</div>
+<div class="widget pageFooter none  widget-none  widget-compact-all" id="6fb92b62-7dea-47a0-9cc8-47eb89502f6b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><footer class="page-footer">
+<div data-pb-dropzone="main">
+<div class="widget general-html none  widget-none  widget-compact-all" id="d499dcb4-f205-463e-92d8-6c1a08f35fd4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="moreSAGEProductsOuterContainer">
+<div class="moreSAGEProducts">
+<a href="http://SK.sagepub.com/video">
+<div class="SAGEProduct SAGEVideo">
+<span class="SAGEVideoTitle">SAGE Video</span><br>
+<span class="SAGEVideoText">Streaming video collections</span>
+</div>
+</a>
+<a href="http://sk.sagepub.com/">
+<div class="SAGEProduct SAGEKnowledge">
+<span class="SAGEKnowledgeTitle">SAGE Knowledge</span><br>
+<span class="SAGEKnowledgeText">The ultimate social sciences library</span>
+</div>
+</a>
+<a href="http://methods.sagepub.com">
+<div class="SAGEProduct SAGEResearch">
+<span class="SAGEResearchTitle">SAGE Research Methods</span><br>
+<span class="SAGEResearchText">The ultimate methods library</span>
+</div>
+</a>
+<a href="http://data.sagepub.com/sagestats/">
+<div class="SAGEProduct SAGEStats">
+<span class="SAGEStatsTitle">SAGE Stats</span><br>
+<span class="SAGEStatsText">Data on Demand</span>
+</div>
+</a>
+<a href="http://library.cqpress.com/index.php">
+<div class="SAGEProduct CQLibrary">
+<span class="CQLibraryTitle">CQ Library</span><br>
+<span class="CQLibraryText">American political resources</span>
+</div>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget general-html none  widget-none  widget-compact-all" id="4c8a6b02-2938-4d47-8324-a3ffe9c0abdd">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="SAGEFooterOuterContainer">
+<div class="SAGEFooterContainer smallFont">
+<div class="topLeftFooter">
+<h2>SAGE Journals</h2>
+<a href="http://www.sagepub.com/journals.nav">
+<span>About</span><br>
+</a>
+<a href="https://us.sagepub.com/en-us/nam/privacy-policy">
+<span>Privacy Policy</span><br>
+</a>
+<a href="/page/policies/terms-of-use">
+<span>Terms of Use</span><br>
+</a>
+<a href="/page/contact/home">
+<span>Contact Us</span><br>
+</a>
+<a href="https://journalssolutions.sagepub.com/support/home">
+<span>Help</span><br>
+</a>
+</div>
+<div class="topRightFooter">
+<h2>Browse</h2>
+<a href="/action/showPublications?category=10.1177%2Fhealth-sciences">
+<span>Health Sciences</span><br>
+</a>
+<a href="/action/showPublications?category=10.1177%2Flife-and-biomedical-sciences">
+<span>Life Sciences</span><br>
+</a>
+<a href="/action/showPublications?category=10.1177%2Fmaterials-science-and-engineering">
+<span>Materials Science & Engineering</span><br>
+</a>
+<a href="/action/showPublications?category=10.1177%2Fsocial-sciences-and-humanities">
+<span>Social Sciences & Humanities</span><br>
+</a>
+<a href="/action/showPublications?alphabetRange=A">
+<span>Journals A-Z</span><br>
+</a>
+<a href="https://journals.sagepub.com/disciplines">
+<span>Discipline Hubs</span><br>
+</a>
+</div>
+<div class="bottomLeftFooter">
+<h2>Resources</h2>
+<a href="https://journalssolutions.sagepub.com/support/solutions/folders/7000040678">
+<span>Authors</span><br>
+</a>
+<a href="https://journalssolutions.sagepub.com/support/solutions/folders/7000040674">
+<span>Editors</span><br>
+</a>
+<a href="https://journalssolutions.sagepub.com/support/solutions/folders/7000040676">
+<span>Reviewers</span><br>
+</a>
+<a href="https://journalssolutions.sagepub.com/support/home">
+<span>Librarians</span><br>
+</a>
+<a href="https://journalssolutions.sagepub.com/support/solutions/folders/7000040675">
+<span>Researchers</span><br>
+</a>
+<a href="https://journalssolutions.sagepub.com/support/solutions/folders/7000040677">
+<span>Societies</span><br>
+</a>
+</div>
+<div class="bottomRightFooter">
+<h2>Opportunities</h2>
+<a href="https://us.sagepub.com/en-us/nam/ratecards">
+<span>Advertising</span><br>
+</a>
+<a href="http://www.uk.sagepub.com/rate-reprints.cp">
+<span>Reprints</span><br>
+</a>
+<a href="https://us.sagepub.com/en-us/nam/content-sponsorship">
+<span>Content Sponsorships</span><br>
+</a>
+<a href="http://www.sagepub.com/journalsPermissions.nav">
+<span>Permissions</span><br>
+</a>
+<a href="https://journals.sagepub.com/opportunities/microsites">
+<span>Microsites</span><br>
+</a>
+</div>
+<div class="issnFooter">
+<br>
+<br>
+</div>
+<div class="SAGECopyright">
+<span class="copyrightText">Copyright © 2019 by </span>
+<span class="copyrightSAGELink">SAGE Publications</span>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</footer></div>
+</div>
+</div>
+</main></div>
+</div>
+</div>
+
+<div class="widget cookiePolicy none  widget-none  widget-compact-all" id="5c3f5caa-a39a-4a6f-9775-625fa6703ced">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div id="cookieBanner" class="cookieBanner">
+<h4 class="b-header">Cookies Notification</h4>
+<div class="b-body" tabindex="0" style="padding-bottom: 5px;">
+This site uses cookies. By continuing to browse
+the site you are agreeing to our use of cookies.
+<a href="/page/cookie-policy" title="Learn more about cookies">Find out more.</a>
+<br>
+<input id="accept-cookie-policy" type="button" title="Dismiss cookie message" value="Accept" />
+</div>
+</div>
+<script type="text/javascript">
+    $("#accept-cookie-policy").click(function() {
+        $.get('/action/cookiePolicy?response=accept', function(data) {
+            $(".cookiePolicy").remove();
+        });
+
+    });
+</script></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+---
+title             : "The title"
+shorttitle        : "My Short Title"
+
+author: 
+  - name          : "First Author"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Postal address"
+    email         : "my@email.com"
+  - name          : "Ernst-August Doelle"
+    affiliation   : "1,2"
+
+affiliation:
+  - id            : "1"
+    institution   : "Wilhelm-Wundt-University"
+  - id            : "2"
+    institution   : "Konstanz Business School"
+
+authornote: |
+  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
+  Enter author note here.
+
+abstract: |
+  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+  
+  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  
+  One sentence clearly stating the **general problem** being addressed by  this particular study.
+  
+  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  
+  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  
+  One or two sentences to put the results into a more **general context**.
+  
+  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : ["r-references.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+
+
+# Methods
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
+
+## Participants
+
+## Material
+
+## Procedure
+
+## Data analysis
+We used `r cite_r("r-references.bib")` for all our analyses.
+
+
+# Results
+
+```{r}
+load("../slides/mixed_data.rdata")
+```
+
+```{r beeplot2, fig.cap = "Bee plot of the example data set. Small points represent individual observations, large points represent means, and error bars represent 95% confidence intervals.", echo = F, dev.args = list(bg = 'white'), eval = T, fig.width = 7, fig.asp = .6}
+apa_beeplot(
+  mixed_data
+  , id = "Subject"
+  , dv = "Recall"
+  , factors = c("Task", "Valence", "Dosage")
+  , dispersion = conf_int
+  , ylim = c(0, 30)
+  , las = 1
+  , args_points = list(cex = 1.5)
+  , args_arrows = list(length = 0.025)
+)
+```
+
+As can be seen in Figure \@ref(fig:beeplot2)...
+
+As you can see in Table \@ref(tab:table1)
+
+```{r table1, echo = F, results='asis'}
+rnames <- LETTERS[1:4]
+tvals <- runif(4, 0, 5)
+n <- round(runif(4, 15, 100))
+pvals <- pt(tvals, df = n - 1, lower.tail = F)
+mytab <- data.frame(rnames, tvals, as.integer(n), printp(pvals))
+
+apa_table(mytab
+          , caption = "Results from four studies."
+          , col.names = c("Study", "$t$-statistic", "Sample Size" , "$p$-value")
+          , align = c("l", "c", "c", "c")
+          , escape = F)
+```
+
+
+# Discussion
+
+
+\newpage
+
+# References
+```{r create_r-references}
+r_refs(file = "r-references.bib")
+```
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup

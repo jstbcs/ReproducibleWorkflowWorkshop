@@ -16,24 +16,444 @@ header-includes:
 - \usepackage{setspace}
 - \usepackage{bm}
 - \usepackage{setspace}
+- \usepackage[LGRgreek]{mathastext}
 subtitle: "R Markdown"
 bibliography: lab.bib
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r setup, include=FALSE, echo = F}
+knitr::opts_chunk$set(echo = TRUE)
+
+library("msm")
+library("papaja")
+load("mixed_data.rdata")
+
 ```
 
-# 4. What is `R Markdown` and how can I use it?
+## General Remarks About Working with `R`
+
+(or, really, just doing data analysis)
+
+<br>
+
+>- Standardiztion: Think about your folder structure.
+>- Clean coding: Develop your own style guide, ideally consistent within the lab.
+>- Use comments throughout the analysis (`R Markdown` can help).
+>- Use relative paths!
+
+# 3. What is `R Markdown` and how can I use it?
 
 ## What is `R Markdown`?
+
+<br>
 
 >- Document format embedding code chunks into Markdown documents.
 >- What's Markdown? "A lightweight markup language."
 >- Easy-to-read and easy-to-write plain text format. Easier than latex (but supports latex).
+>- Supports many output formats (html, pdf, ms word, ...) 
 
-# 5. Writing an APA-style paper that is fully reproducible.
+## Basic Rules of Markdown | Line Break
 
+```{r eval = F}
+This is an example sentence.
+This is annother example sentence.
+
+This is an example sentence.
+
+This is annother example sentence.
+```
+
+This is an example sentence.
+This is annother example sentence.
+
+This is an example sentence.
+
+This is annother example sentence.
+
+## Basic Rules of Markdown | Header
+
+```{r, eval = F}
+# Level 1 Header
+
+## Level 2 Header
+
+### Level 3 Header
+```
+
+<header>
+    <h2>Level 1 Header</h2>
+    <h3>Level 2 Header</h3>
+    <h1>Level 3 Header</h1>
+</header>
+
+## Basic Rules of Markdown | Bold and Italic
+
+To write text in bold or in italic, just add *’s around the word(s)
+
+```{r, eval = F}
+You can print one word **bold** and another *italic*.
+
+Or *multiple words* can **be altered**.
+```
+
+You can print one word **bold** and another word *italic.*
+
+Or *multiple words* can **be altered**.
+
+## Basic Rules of Markdown | Lists
+
+```{r, eval = F}
+- This
+- Is
+- A
+- List
+```
+
+- This
+- Is
+- A
+- List
+
+## Basic Rules of Markdown | Lists
+
+```{r, eval = F}
+1. This
+2. Is
+4. Another
+5. List
+```
+
+1. This
+2. Is
+4. Another
+5. List
+
+## Basic Rules of Markdown | Overview
+
+Check out the cheat sheets in the folder [material](https://github.com/jstbcs/ReproducibleWorkflowWorkshop/tree/master/material).
+
+## Task I
+
+<br>
+
+Go to [hackmd.io](hackmd.io) &#10148; Click on 'Use for free' &#10148; Write Markdown!
+
+<br>
+
+<br>
+
+
+<img src="pics/do.png" width="220" align="right">
+
+## `R Markdown` | What is Possible?
+
+- Scientific papers (which we will do later)
+- Slides
+- HTML sites
+- CVs
+- ...
+
+## From Rmd to PDF
+
+<img src="pics/compilation.jpg" width="376" height="524" align="center">
+
+## Task II
+
+- Open `RStudio`.
+- Go to 'File' &#10148; 'New File' &#10148; 'R Markdown'
+- Add title and author, choose PDF, and click 'ok'.
+- Save the file.
+- Click the 'knit' button.
+
+<img src="pics/do.png" width="220" align="right">
+
+## YAML header | YAML = "YAML Ain't Markup Language"
+
+```{YAML}
+---
+title: "My first Markdown"
+author: "My name"
+output: pdf_document
+---
+```
+
+## YAML header | YAML = "YAML Ain't Markup Language"
+
+```{YAML}
+---
+title: "Does Every Study? Implementing Ordinal Constraint in Meta-Analysis"
+author: 
+  - name: "Julia Haaf"
+    affiliation: "1"
+affiliation:
+  - id: "1"
+    institution: "University of Amsterdam"
+abstract: "here."
+bibliography: ["lab.bib", "r-references.bib"]
+figsintext: yes
+header-includes:
+  - \usepackage{pcl}
+class: "man"
+output: papaja::apa6_pdf
+---
+```
+
+## R code chunks
+
+````
+`r ''````{r name, options = ...}
+1 + 1
+```
+````
+
+```{r, echo = F}
+1+1
+```
+
+
+>- Code chunks include code (mostly R but python is possible)
+>- Code is executed when knitting a R Markdown file
+>- In R Studio you can use the shortcut `Ctrl + alt + i` to insert a code block
+>- No underscore in chunk name
+>- No name twice
+
+## Chunk options
+
+>- `eval = FALSE`
+>- `echo = FALSE`
+>- `warnings = FALSE`
+>- `cache = TRUE`
+>- `child = "rmdfilename.Rmd"`
+>- See [rmarkdown-cheatsheet2](material/rmarkdown-cheatsheet2.pdf) for most important options.
+
+## Global chunk options
+
+Adjust all chunk options in a Rmd file with the following command:
+
+```{r, eval = F}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Task III
+
+- Go back to your `Rmd` file.
+- Add a chunk calculating the sd the speed of cars.
+- Print the results in a sentence below the chunk.
+- Knit the PDF.
+- Not happy with result? Round it!
+
+<img src="pics/do.png" width="220" align="right">
+
+## Inline R-Code
+
+This is an inline expression `` `r
+sd(cars$speed)` `` in the output.
+
+This is an inline expression `r sd(cars$speed)` in the output.
+
+## Inline R-Code
+
+This is an inline expression `` `r
+sd(cars$speed)` `` in the output.
+
+This is an inline expression `r sd(cars$speed)` in the output.
+
+```{r}
+sdcars <- sd(cars$speed)
+```
+
+The standard deviation of the speed of cars is`` `r
+round(sdcars, 2)` ``. 
+
+The standard deviation of the speed of cars is `r round(sdcars, 2)`. 
+
+## $\mathbf{\LaTeX}$
+
+>- You can add $\mathbf{\LaTeX}$ code to your text.
+>- Math mode for formulas.
+
+## $\mathbf{\LaTeX}$
+
+- You can add $\mathbf{\LaTeX}$ code to your text.
+- Math mode for formulas.
+
+<br>
+
+```{r, eval = F}
+You can simply add a formular: $\frac{SD}{\sqrt{N}}$.
+```
+
+**Result:**
+
+You can simply add a formular: $\frac{SD}{\sqrt{N}}$.
+
+## Math mode and R code
+
+You can use R within math mode.
+
+## Math mode and R code
+
+You can use R within math mode.
+
+```{r}
+sd1 <- 15
+n1 <- 16
+```
+
+## Math mode and R code
+
+You can use R within math mode.
+
+```{r}
+sd1 <- 15
+n1 <- 17
+```
+
+```{r eval = F}
+$se = \frac{`r sd1`}{\sqrt{`r n1`}} \approx `r round(sd1/(sqrt(n1)), 2)`$
+```
+
+$se = \frac{`r sd1`}{\sqrt{`r n1`}} \approx
+`r round(sd1/(sqrt(n1)), 2)`$
+
+
+# 4. Writing an APA-style paper that is fully reproducible.
+
+## `papaja`
+
+- Template + filters + functions
+- Helps writing APA6 articles
+- Still in developement
+- More information: https://github.com/crsh/papaja
+
+<br>
+
+<br>
+
+File &#10148; New File &#10148; R Markdown &#10148; From Template &#10148; APA article
+
+## `papaja` | `apa_print`
+
+Print statistical results.
+
+<br>
+
+```{r}
+great_t_test <- t.test(1:10, y = c(7:20))
+```
+
+## `papaja` | `apa_print`
+
+Print statistical results.
+
+<br>
+
+```{r}
+great_t_test <- t.test(1:10, y = c(7:20))
+```
+
+<br>
+
+```{r eval = F}
+The results were great, `r apa_print(great_t_test)$full_result`.
+```
+
+The results were great,
+`r apa_print(great_t_test)$full_result`.
+
+## `papaja` | Figures
+
+For factorial design: Try apa_barplot & apa_beeplot.
+
+```{r beeplot, fig.cap = "Bee plot of the example data set. Small points represent individual observations, large points represent means, and error bars represent 95% confidence intervals.", echo = TRUE, dev.args = list(bg = 'white'), eval = F}
+apa_beeplot(
+  mixed_data
+  , id = "Subject"
+  , dv = "Recall"
+  , factors = c("Task", "Valence", "Dosage")
+  , dispersion = conf_int
+  , ylim = c(0, 30)
+  , las = 1
+  , args_points = list(cex = 1.5)
+  , args_arrows = list(length = 0.025)
+)
+```
+
+## `papaja` | Figures
+
+<img src="pics/figAPA.png" width="750" align="center">
+
+## `papaja` | Figures
+
+Figure reference and caption.
+
+````
+`r ''````{r some-fig, fig.cap = "Here is the figure caption."}
+plot(seq(-2, 2, .01)
+     , dnorm(seq(-2, 2, .01))
+     , type = "l")
+```
+````
+
+As can be seen in Figure `\@ref(fig:some-fig)`...
+
+## `papaja` | Tables
+
+- Tables can be produced with R code in R chunks (e.g., with kable or apa_table)
+- Important: add results=‘asis’ to chunk options
+- Tables can be written in Markdown directly
+
+## `papaja` | Tables
+
+```{r, eval = F}
+rnames <- LETTERS[1:4]
+tvals <- runif(4, 0, 5)
+n <- round(runif(4, 15, 100))
+pvals <- pt(tvals, df = n - 1, lower.tail = F)
+mytab <- data.frame(rnames, tvals, as.integer(n), printp(pvals))
+
+apa_table(mytab
+          , caption = "Results from four studies."
+          , col.names = c("Study", "$t$-statistic", "Sample Size" , "$p$-value")
+          , escape = F)
+```
+
+## `papaja` | Tables
+
+<img src="pics/tabAPA.png" width="550" align="center">
+
+## `papaja` | Sources and Citing
+
+You need:
+
+>- A biblatex file of your references (e.g., from Zotero).
+>- Add .bib file name to `YAML` `bibliography: nameoffile.bib`.
+>- One way: Look up citation key and insert to text with @ in front.
+>- `@citationkey` for in-text and `[@citationkey]` for in-parentheses citation.
+>- Creates proper citation and reference list.
+
+## `Citr`
+
+- Save bib file and add to `YAML`.
+- Install `citr` (RStudio plug-in).
+- Set `citr` shortcut.
+- More information: github.com/crsh/citr.
+
+# Summary
+
+## Summary
+
+>- You can do your analysis using `R Markdown`.
+>- It is convenient to integrate text and code.
+>- Upload Rmd, bib, data, and additional analysis files, and anyone can reproduce your analysis.
+
+## Summary
+
+- You can do your analysis using `R Markdown`.
+- It is convenient to integrate text and code.
+- Upload Rmd, bib, data, and additional analysis files, and anyone can reproduce your analysis.
+
+**Pro-tip:** If analysis is to long for the chunks use `source()` to load `R`-files, and the chunk opion `child = myanalysis.Rmd` to include other `R Markdown` files.
 
 ## References
 

@@ -24,7 +24,7 @@ bibliography: lab.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# 4. What is `git` and how can I use it?
+# 5. What is `git` and how can I use it?
 
 ## What is `git`?
 
