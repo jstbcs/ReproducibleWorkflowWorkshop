@@ -26,10 +26,152 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 5. What is `git` and how can I use it?
 
-## What is `git`?
+## What I would like to show you about `git`
 
+<div class="left-col">
+* How to use a terminal
+* Git
+  + What is it good for?
+  + What is it?
+  + What can it do?
+* Set-up for your computer
+  + GUI/terminal
+  + R Studio & git
+  + SSH
+  + Set name & email address
+</div>
 
+<div class="left-col">
+  + Your first repo
+    - Github and GitLab
+    - In R Studio
+    - gitignore
+    - README
 
+* Workflow
+  + Add, Commit, Push
+  + Diff
+  + Merge, Branches, Tagging... (all the cool stuff)
+  + What happens if something goes wrong? (And it will.)
+
+</div>
+
+## What we have time for
+
+<div class="left-col">
+* *How to use a terminal*
+* Git
+  + **What is it good for?**
+  + **What is it?**
+  + What can it do?
+* Set-up for your computer
+  + *GUI/terminal*
+  + **R Studio & git**
+  + *SSH*
+  + Set name & email address
+</div>
+
+<div class="left-col">
+  + Your first repo
+    - *Github and GitLab*
+    - **In R Studio**
+    - **gitignore**
+    - **README**
+
+* Workflow
+  + **Add, Commit, Push**
+  + Diff
+  + *Merge, Branches, Tagging... (all the cool stuff)*
+  + What happens if something goes wrong? (And it will.)
+
+</div>
+
+## What is it good for?
+
+**Version control:**
+
+>- Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+>- History of all changes (who, what, when).
+>- Helps to avoid mistakes (working on the wrong version, deleting, ...).
+>- Merging changes of multiple collaborators in one file
+
+<img src="pics/git2.jpg" width="600" align="center">
+
+## What is it?
+
+<img src="pics/gitflow.jpeg" width="700" align="center">
+
+## What can it do?
+
+>- A lot! Which is why we only need a part of its functionality.
+>- Working on one product in (large) teams.
+>- Working on things that can break.
+>- git can only integrate and show changes in text files.
+>- binary files (images, etc.) can be tracked and uploaded but changes cannot be shown.
+>- Track changes for MS Word is improving
+
+# Set-up for your computer
+
+## R Studio & git
+
+<img src="pics/gitrstudio.png" width="900" align="center">
+
+## R Studio & git
+
+Tools &#10148; Global Options &#10148; Git/SVN.
+
+Make sure the first box is ticked and the "git.exe" is included in the first box.
+
+<img src="pics/gitrstudio2.png" width="400" align="center">
+
+## Set name & email address
+
+>- Open the Terminal in R Studio.
+>- Set an email address and user name for git.
+
+## Set name & email address
+
+- Open the Terminal in R Studio.
+- Set an email address and user name for git.
+
+```{r eval = F, echo = T}
+git config --global user.email "myemail@email.com"
+git config --global user.name "My commit name"
+```
+
+# My first repo
+
+## Github
+
+## In R Studio
+
+## gitignore
+
+## README
+
+# Workflow
+
+## Do some work
+
+## Add
+
+## Commit
+
+## Push
+
+## Pull, work some more, repeat.
+
+## What changed in the last commit?
+
+## What happens if something goes wrong? (And it will.)
+
+<img src="pics/git.png" width="320" align="center">
+
+## Summary
+
+>- Add, commit, push, pull.
+>- Use it!
+>- git documentation and error tracking are great!
 
 ## References
 

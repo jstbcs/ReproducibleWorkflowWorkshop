@@ -446,16 +446,18 @@ You need:
 >- You can do your analysis using `R Markdown`.
 >- It is convenient to integrate text and code.
 >- Upload Rmd, bib, data, and additional analysis files, and anyone can reproduce your analysis.
+>- Example paper: [https://github.com/tomfaulkenberry/twoDigitTaskManip](https://github.com/tomfaulkenberry/twoDigitTaskManip)
 
 ## Summary
 
 - You can do your analysis using `R Markdown`.
 - It is convenient to integrate text and code.
 - Upload Rmd, bib, data, and additional analysis files, and anyone can reproduce your analysis.
+- Example paper: [https://github.com/tomfaulkenberry/twoDigitTaskManip](https://github.com/tomfaulkenberry/twoDigitTaskManip)
+
+<br>
 
 **Pro-tip:** If analysis is to long for the chunks use `source()` to load `R`-files, and the chunk opion `child = myanalysis.Rmd` to include other `R Markdown` files.
-
-## References
 
 <style>
 slides > slide {
@@ -469,9 +471,5 @@ slides > slide:not(.nobackground):before {
   background: none;
 }
 </style>
-
-<font size="3">
-<div id = "refs"></div>
-</font>
 
 
