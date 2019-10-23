@@ -93,7 +93,7 @@ knitr::opts_chunk$set(echo = FALSE)
 >- Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 >- History of all changes (who, what, when).
 >- Helps to avoid mistakes (working on the wrong version, deleting, ...).
->- Merging changes of multiple collaborators in one file
+>- Merging changes of multiple collaborators in one file.
 
 <img src="pics/git2.jpg" width="600" align="center">
 
@@ -103,12 +103,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What can it do?
 
->- A lot! Which is why we only need a part of its functionality.
->- Working on one product in (large) teams.
->- Working on things that can break.
->- git can only integrate and show changes in text files.
->- binary files (images, etc.) can be tracked and uploaded but changes cannot be shown.
->- Track changes for MS Word is improving
+- A lot! Which is why we only need a part of its functionality.
+- Working on one product in (large) teams.
+- Working on things that can break.
+- git can only integrate and show changes in text files.
+- binary files (images, etc.) can be tracked and uploaded but changes cannot be shown.
+- Track changes for MS Word is improving.
 
 # Set-up for your computer
 
@@ -120,7 +120,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Tools &#10148; Global Options &#10148; Git/SVN.
 
-Make sure the first box is ticked and the "git.exe" is included in the first box.
+Make sure the first box is ticked and the "git.exe" (Windows) is included in the first box.
 
 <img src="pics/gitrstudio2.png" width="400" align="center">
 
@@ -141,31 +141,203 @@ git config --global user.name "My commit name"
 
 # My first repo
 
-## Github
+## Github 
+
+<img src="pics/github/githubstartpage.png" width="900" align="center">
+
+## Github | New Repository
+
+<img src="pics/github/githubstartpage2.png" width="900" align="center">
+
+## Github | New Repository
+
+<img src="pics/github/githubnewrepo.png" width="520" align="center">
+
+## Github | New Repository
+
+<img src="pics/github/githubnewrepo2.png" width="520" align="center">
+
+## Github | Settings
+
+<img src="pics/github/githubsettings.png" width="820" align="center">
+
+## Github | Settings
+
+<img src="pics/github/githubcollaborator.png" width="820" align="center">
+
+## Github | Settings
+
+<img src="pics/github/githubdanger.png" width="720" align="center">
+
+## Github | Clone It!
+
+<img src="pics/github/githubnewrepo3.png" width="700" align="center">
 
 ## In R Studio
 
+File &#10148; New Project &#10148; Version Control &#10148; Git
+
+<img src="pics/github/rstudioaddrepo.png" width="600" align="center">
+
+## In R Studio
+
+- You will have to type in you user name and password for github.
+- Initializes a local git repository with an R project (opening a clean R Studio session when opeing).
+- You can see the README file from github.
+- Adds a `.gitignore` file.
+
+<br>
+
+<img src="pics/repofiles.png" width="600" align="center">
+
+## Task IV
+
+- Make a new repository.
+- Clone it using R Studio to make a local repository.
+
+<img src="pics/do.png" width="220" align="right"> 
+
 ## gitignore
+
+>- Specifies intentionally untracked files to ignore.
+>- Each line in a `gitignore` file specifies a pattern.
+>- R Studio pre-specifies some useful patterns.
+>- For R Markdown: Cache files! .tiff, .eps, .rdb, .rdx
+
+<br>
+
+<img src="pics/gitignore.png" width="300" align="center">
+
 
 ## README
 
-# Workflow
+<img src="pics/readme.png" width="800" align="center">
+
+## README
+
+>- Tell other people (and yourself in a year) why your project is useful, what they can do with your project, and how they can use it.
+>- On github default README files are Markdown files!
+
+## Task V
+
+- Write a (short) README file for your test repository. 
+- Use Markdown formatting.
+
+<img src="pics/do.png" width="220" align="right"> 
+
+# Git Workflow
 
 ## Do some work
 
-## Add
+<img src="pics/gitworkflow/gitmodified.png" width="520" align="center"> 
 
-## Commit
+## Git Add
 
-## Push
+<img src="pics/gitworkflow/gitadd.png" width="520" align="center"> 
 
-## Pull, work some more, repeat.
+<br>
 
-## What changed in the last commit?
+```{r eval = F, echo = T}
+git add .gitignore myfirstrepo.Rproj
+```
+
+<br>
+
+<br>
+
+`git` can do autocomplete for file names!
+
+## Git Commit
+
+<img src="pics/gitworkflow/gitcommit.png" width="520" align="center"> 
+
+<br>
+
+```{r eval = F, echo = T}
+git add .gitignore myfirstrepo.Rproj
+git commit -m "My first commit"
+```
+
+<br>
+
+<br>
+
+Commits always have a commit message.
+
+## Commit message
+
+<br>
+
+<img src="pics/git_commit.png" width="620" align="center"> 
+
+## Git Push
+
+<img src="pics/gitworkflow/gitpush.png" width="520" align="center"> 
+
+<br>
+
+```{r eval = F, echo = T}
+git add .gitignore myfirstrepo.Rproj
+git commit -m "My first commit"
+git push
+```
+
+Congrats! You have done it! Now local and remote repositories are up to date!
+
+## Task VI
+
+- Add your unstages files.
+- Commit the changes.
+- Push to the remote repository.
+
+<img src="pics/do.png" width="220" align="right"> 
+
+## Git Pull
+
+Before you start working on the project the next time:
+
+<br>
+
+```{r eval = F, echo = T}
+git pull
+```
+
+<br>
+
+Pull, work some more, repeat.
+
+## What changed since the last commit?
+
+```{r eval = F, echo = T}
+git diff
+```
+
+<img src="pics/gitworkflow/gitdiff.png" width="720" align="center"> 
+
 
 ## What happens if something goes wrong? (And it will.)
 
 <img src="pics/git.png" width="320" align="center">
+
+## What happens if something goes wrong? (And it will.)
+
+- Remember: You cannot break things.
+- Most likely you have a merge conflict.
+
+## Push Conflict
+
+<img src="pics/gitworkflow/pushconflict.png" width="720" align="center"> 
+
+## Merge Conflict
+
+<img src="pics/gitworkflow/pullconflict.png" width="720" align="center"> 
+
+## Merge Conflict
+
+<img src="pics/gitworkflow/mergeconflict.png" width="720" align="center"> 
+
+>- Resolve the conflict (Choose which changes to keep).
+>- Commit, and Push.
 
 ## Summary
 
