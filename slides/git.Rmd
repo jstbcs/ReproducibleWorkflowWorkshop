@@ -347,6 +347,11 @@ git diff
 
 ## References
 
+Additional info (in the [material folder](../material/git-tutorial.pdf)):
+
+Vuorre, M., & Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version
+Control System. *Advances in Methods and Practices in Psychological Science, 1*(2), 219–236.
+
 <style>
 slides > slide {
   overflow-x: auto !important;
