@@ -36,6 +36,16 @@ knitr::opts_chunk$set(echo = FALSE)
 You can find the slides and materials here:
 [https://github.com/jstbcs/ReproducibleWorkflowWorkshop](https://github.com/jstbcs/ReproducibleWorkflowWorkshop).
 
+## Who Am I?
+
+Julia Haaf
+
+Postdoc in the Bayesian lab (Psychological Methods)
+
+email: j.m.haaf@uva.nl
+
+Room: G0.34
+
 ## Who Are You?
 
 <br>
@@ -56,9 +66,9 @@ You can find the slides and materials here:
 
 ## Replicability Crisis
 
->- Failures to replicate [e.g. @Ebersole:etal:2016; @OpenScienceCollaboration:2015; @Wagenmakers:etal:2016b].
->- Fraud [@Bhattacharjee:2013].
->- Improbable findings have been published in top-tier journals [e.g. @Bem:2011].
+- Failures to replicate [e.g. @Ebersole:etal:2016; @OpenScienceCollaboration:2015; @Wagenmakers:etal:2016b].
+- Fraud [@Bhattacharjee:2013].
+- Improbable findings have been published in top-tier journals [e.g. @Bem:2011].
 
 <br>
 
@@ -124,9 +134,9 @@ Think about your own experience:
 
 >- Prevalence: Roughly half the publications in 30 years of literature contained at least one malformed statement of a statistical test [@Nuijten:etal:2016].
 >- Bias: Simple mistakes tend to go in researchers’ preferred direction [@Gould:1996].
->- Persistent: Once in the literature mistakes are almost impossible to detect [@Rouder:etal:2019a].
+>- Persistence: Once in the literature mistakes are almost impossible to detect [@Rouder:etal:2019a].
 
-## High-Reliability Organizations’ Principles for Avoiding Mistakes
+## High-Reliability Organizations | Principles for Avoiding Mistakes
 
 >1. Sensitivity to operations: Focus on processes instead of outcomes.
 >2. Preoccupation with failure: Look for ways to proactively anticipate and avoid mistakes, and take small mistakes seriously.
@@ -156,13 +166,6 @@ Think about your own experience:
 scholarship. The actual scholarship is the full software
 environment, code and data, that produced the result.” Claerbout & Karrenbach, 1992
 </blockquote>
-
-## Different Reproducibilities
-
->- Empirical Reproducibility
->- Computational Reproducibility
->- Statistical Reproducibility
->- Plus: machine vs. human readability
 
 ## Fully Reproducible
 

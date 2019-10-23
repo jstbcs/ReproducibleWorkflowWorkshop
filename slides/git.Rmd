@@ -195,6 +195,10 @@ File &#10148; New Project &#10148; Version Control &#10148; Git
 - Make a new repository.
 - Clone it using R Studio to make a local repository.
 
+<br>
+
+<br>
+
 <img src="pics/do.png" width="220" align="right"> 
 
 ## gitignore
@@ -222,6 +226,10 @@ File &#10148; New Project &#10148; Version Control &#10148; Git
 
 - Write a (short) README file for your test repository. 
 - Use Markdown formatting.
+
+<br>
+
+<br>
 
 <img src="pics/do.png" width="220" align="right"> 
 
@@ -255,7 +263,7 @@ git add .gitignore myfirstrepo.Rproj
 
 ```{r eval = F, echo = T}
 git add .gitignore myfirstrepo.Rproj
-git commit -m "My first commit"
+git commit -am "My first commit"
 ```
 
 <br>
@@ -278,7 +286,7 @@ Commits always have a commit message.
 
 ```{r eval = F, echo = T}
 git add .gitignore myfirstrepo.Rproj
-git commit -m "My first commit"
+git commit -am "My first commit"
 git push
 ```
 
@@ -289,6 +297,8 @@ Congrats! You have done it! Now local and remote repositories are up to date!
 - Add your unstages files.
 - Commit the changes.
 - Push to the remote repository.
+
+<br>
 
 <img src="pics/do.png" width="220" align="right"> 
 

@@ -39,7 +39,7 @@ load("mixed_data.rdata")
 >- Standardiztion: Think about your folder structure.
 >- Clean coding: Develop your own style guide, ideally consistent within the lab.
 >- Use comments throughout the analysis (`R Markdown` can help).
->- Use relative paths!
+>- Use relative paths ("../material/example-paper.pdf" instead of "/home/julia/Documents/Git/ReproducibleWorkflowWorkshop/material/example-paper.pdf")!
 
 # 3. What is `R Markdown` and how can I use it?
 
@@ -136,7 +136,7 @@ Check out the cheat sheets in the folder [material](https://github.com/jstbcs/Re
 
 <br>
 
-Go to [hackmd.io](hackmd.io) &#10148; Click on 'Use for free' &#10148; Write Markdown!
+Go to [hackmd.io](https://hackmd.io/) &#10148; Click on 'Use for free' &#10148; Write Markdown!
 
 <br>
 
@@ -167,7 +167,7 @@ Go to [hackmd.io](hackmd.io) &#10148; Click on 'Use for free' &#10148; Write Mar
 
 <img src="pics/do.png" width="220" align="right">
 
-## YAML header | YAML = "YAML Ain't Markup Language"
+## YAML header | YAML = "Yet Another Markup Language"
 
 ```{YAML}
 ---
@@ -211,11 +211,10 @@ output: papaja::apa6_pdf
 ```
 
 
->- Code chunks include code (mostly R but python is possible)
->- Code is executed when knitting a R Markdown file
->- In R Studio you can use the shortcut `Ctrl + alt + i` to insert a code block
->- No underscore in chunk name
->- No name twice
+>- Code chunks include code (mostly R but python is possible).
+>- Code is executed when knitting a R Markdown file.
+>- In R Studio you can use the shortcut `Ctrl + alt + i` to insert a code block.
+>- No underscore in chunk name, no name twice.
 
 ## Chunk options
 
@@ -224,7 +223,7 @@ output: papaja::apa6_pdf
 >- `warnings = FALSE`
 >- `cache = TRUE`
 >- `child = "rmdfilename.Rmd"`
->- See [rmarkdown-cheatsheet2](material/rmarkdown-cheatsheet2.pdf) for most important options.
+>- See [rmarkdown-cheatsheet2](https://github.com/jstbcs/ReproducibleWorkflowWorkshop/blob/master/material/rmarkdown-cheatsheet2.pdf) for most important options.
 
 ## Global chunk options
 
@@ -237,7 +236,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Task III
 
 - Go back to your `Rmd` file.
-- Add a chunk calculating the sd the speed of cars.
+- Add a chunk calculating the standard deviation (`sd()`) of the speed of cars.
 - Print the results in a sentence below the chunk.
 - Knit the PDF.
 - Not happy with result? Round it!
@@ -297,7 +296,7 @@ You can use R within math mode.
 
 ```{r}
 sd1 <- 15
-n1 <- 16
+n1 <- 17
 ```
 
 ## Math mode and R code
@@ -321,10 +320,11 @@ $se = \frac{`r sd1`}{\sqrt{`r n1`}} \approx
 
 ## `papaja`
 
-- Template + filters + functions
-- Helps writing APA6 articles
-- Still in developement
-- More information: https://github.com/crsh/papaja
+- Template + filters + functions.
+- Helps writing APA6 articles.
+- Still in developement.
+- More information: https://github.com/crsh/papaja.
+- Example: [material/example-paper.Rmd](https://github.com/jstbcs/ReproducibleWorkflowWorkshop/blob/master/material/example-paper.Rmd)
 
 <br>
 
@@ -399,9 +399,9 @@ As can be seen in Figure `\@ref(fig:some-fig)`...
 
 ## `papaja` | Tables
 
-- Tables can be produced with R code in R chunks (e.g., with kable or apa_table)
-- Important: add results=‘asis’ to chunk options
-- Tables can be written in Markdown directly
+- Tables can be produced with R code in R chunks (e.g., with kable or apa_table).
+- Important: add results=‘asis’ to chunk options.
+- Tables can be written in Markdown directly.
 
 ## `papaja` | Tables
 
@@ -446,18 +446,18 @@ You need:
 >- You can do your analysis using `R Markdown`.
 >- It is convenient to integrate text and code.
 >- Upload Rmd, bib, data, and additional analysis files, and anyone can reproduce your analysis.
->- Example paper: [https://github.com/tomfaulkenberry/twoDigitTaskManip](https://github.com/tomfaulkenberry/twoDigitTaskManip)
+>- Example paper: [https://github.com/PerceptionAndCognitionLab/rm-gardiner-java](https://github.com/PerceptionAndCognitionLab/rm-gardiner-java).
 
 ## Summary
 
 - You can do your analysis using `R Markdown`.
 - It is convenient to integrate text and code.
 - Upload Rmd, bib, data, and additional analysis files, and anyone can reproduce your analysis.
-- Example paper: [https://github.com/tomfaulkenberry/twoDigitTaskManip](https://github.com/tomfaulkenberry/twoDigitTaskManip)
+- Example paper: [https://github.com/PerceptionAndCognitionLab/rm-gardiner-java](https://github.com/PerceptionAndCognitionLab/rm-gardiner-java)
 
 <br>
 
-**Pro-tip:** If analysis is to long for the chunks use `source()` to load `R`-files, and the chunk opion `child = myanalysis.Rmd` to include other `R Markdown` files.
+**Pro-tip:** If the R chunks are too long use `source()` to load `R`-files, and the chunk opion `child = myanalysis.Rmd` to include other `R Markdown` files.
 
 <style>
 slides > slide {
