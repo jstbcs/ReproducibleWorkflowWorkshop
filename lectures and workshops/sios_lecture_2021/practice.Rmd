@@ -1,0 +1,104 @@
+---
+title: "Your turn!"
+author: "Julia Haaf"
+date: "03/31/2021"
+output: 
+  html_document:
+    theme: cerulean
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Git and Rmarkdown {.tabset .tabset-fade}
+
+## Get to know git
+
+1. Make a new repository.
+2. Clone it using R Studio to make a local repository.
+3. Write a (short) README file for your test repository using Markdown formatting.
+4. Add your unstaged files, commit the changes, push to the remote repository.
+
+<img src="slides/pics/do.png" width="220" align="right">
+
+## Branch out
+
+Now it is time to make a development branch.
+
+5. Open the terminal in Rstudio. Make sure you are in the right directory. Type:
+
+```{r eval = F}
+git checkout -b devel
+```
+
+This moves you to the new branch called devel. You can also see it in the git interface in Rstudio (typically top right  panel).
+
+Now you are ready to go to work!
+
+<img src="slides/pics/do.png" width="220" align="right">
+
+## Interact with git repositories and use rmarkdown
+
+Now it is time to put your new knowledge on Rmarkdown and git to good use. 
+
+6. Open a new Rmd file and save it in the git repository.
+
+We will now use a data set from another repo for a simple analysis. This [repository](https://github.com/PerceptionCognitionLab/data0/tree/master/contexteffects/FlankerStroopSimon) contains data from several cognitive tasks. The [R-file](https://raw.githubusercontent.com/PerceptionCognitionLab/data0/master/contexteffects/FlankerStroopSimon/cleaning.R) in the repo loads and cleans the data.
+
+7. Source the R-file from github directly. *Hint:* [Google is your best friend](https://stackoverflow.com/questions/35720660/how-to-use-an-r-script-from-github)
+
+You should now have the data set `stroop` loaded in R.
+
+```{r echo = F, message = F}
+devtools::source_url("https://raw.githubusercontent.com/PerceptionCognitionLab/data0/master/contexteffects/FlankerStroopSimon/cleaning.R")
+
+head(stroop)
+```
+
+We want to analyze the response time (`rt`) as a function of condition (`cond`).
+
+8. Conduct a paired t-test for the stroop task data.
+
+*Hint 1:* You first need to aggregate the data.
+
+*Hint 2:* This should be the results
+
+```{r, echo = F, message=F}
+library(tidyverse)
+
+stroop_agg <- stroop %>%
+  group_by(ID, cond) %>%
+  summarize(mean_rt = mean(rt))
+
+t.test(mean_rt ~ cond, data = stroop_agg, paired = T)
+```
+
+9. Make sure to knit your Rmarkdown document either to html or pdf.
+
+<img src="slides/pics/do.png" width="220" align="right">
+
+## Back to git
+
+When using branches it is easiest to work in the terminal.
+
+10. Now add, commit, and push both the rmd file and the result file.
+
+*Hint:* Use the terminal!
+
+```{r eval = F}
+git add myfile.Rmd myfile.html
+git commit -am "my commit message"
+git push --set-upstream origin devel
+```
+
+11. And then merge the `devel` branch into `master`:
+
+```{r eval = F}
+git checkout master
+git merge devel --no-ff -m "merge devel"
+git push
+```
+
+<img src="slides/pics/do.png" width="220" align="right">
