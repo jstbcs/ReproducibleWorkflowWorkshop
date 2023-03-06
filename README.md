@@ -15,7 +15,7 @@ In the debate around the reproducibility crisis, most attention is paid to insta
 ### Install git
 
 1. Follow the instructions here: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-2. Make sure to sign up with github ([github.com](github.com)), we will use it as host for our repositories.
+2. Make sure to sign up with github ([https://github.com/signup](https://github.com/signup)), we will use it as host for our repositories.
 3. We will use `RStudio` as user interface for `git`. An alternative is, for example, the github desktop GUI ([link](https://desktop.github.com/)).
 
 ### Install R and RStudio
