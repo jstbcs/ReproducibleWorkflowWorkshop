@@ -1,11 +1,8 @@
 ---
 title: "In-class assignment"
-author: "Julia Haaf"
-date: "8/31/2020"
-output: 
-  html_document:
-    theme: cerulean
-    highlight: tango
+author: "Michelle Donzallaz"
+date: "22 March 2023"
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library("curl")
 ```
 
-# Git and Rmarkdown {.tabset .tabset-fade}
+# Git and Rmarkdown 
 
 ## Get to know git
 
@@ -26,15 +23,15 @@ library("curl")
 
 ## Branch out
 
-Now it is time to make a development branch.
+Now it is time to make a development branch. You can also do this within RStudio but let's try out the terminal!
 
-5. Open the terminal in Rstudio. Make sure you are in the right directory. Type:
+5. Open the terminal in RStudio. Make sure you are in the right directory. Type:
 
 ```{r eval = F}
-git checkout -b devel
+git checkout -b dev
 ```
 
-This moves you to the new branch called devel. You can also see it in the git interface in Rstudio (typically top right  panel).
+This moves you to the new branch called dev. You can also see it in the git interface in RStudio (typically top right panel).
 
 Now you are ready to go to work!
 
@@ -67,7 +64,7 @@ We want to analyze the response time (`rt`) as a function of condition (`cond`).
 *Hint 2:* This should be the results
 
 ```{r, echo = F, message=F}
-library(tidyverse)
+library(dplyr)
 
 stroop_agg <- stroop %>%
   group_by(ID, cond) %>%
@@ -82,23 +79,21 @@ t.test(mean_rt ~ cond, data = stroop_agg, paired = T)
 
 ## Back to git
 
-When using branches it is easiest to work in the terminal.
-
 10. Now add, commit, and push both the rmd file and the result file.
 
-*Hint:* Use the terminal!
+You can either use the RStudio GUI or the terminal.
 
 ```{r eval = F}
 git add myfile.Rmd myfile.html
 git commit -am "my commit message"
-git push --set-upstream origin devel
+git push --set-upstream origin dev
 ```
 
-11. And then merge the `devel` branch into `master`:
+11. And then merge the `dev` branch into `master`. You need to use the terminal for this.
 
 ```{r eval = F}
 git checkout master
-git merge devel --no-ff -m "merge devel"
+git merge dev --no-ff -m "merge dev"
 git push
 ```
 
