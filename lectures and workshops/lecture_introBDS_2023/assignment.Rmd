@@ -15,11 +15,23 @@ library("curl")
 ## Get to know git
 
 1. Make a new repository.
-2. Clone it using R Studio to make a local repository.
+2. Clone it using RStudio to make a local repository.
 3. Write a (short) README file for your test repository using Markdown formatting.
-4. Add your unstaged files, commit the changes, push to the remote repository.
+4. Add your unstaged files, commit the changes
+5. Before you can push the changes to your repository, you need to set up PAT (personal access token) or SSH based authentication. This is part of the general set-up and does not need to be repeated often. There are several ways of doing this and you are of course free to choose your preferred method. I recommend (aka this is how I did it ;-)), you use PAT based authentication and follow steps 1-7 outlined [*here*](https://mgimond.github.io/Colby-summer-git-workshop-2021/authenticating-with-github.html). **After step 7**, copy the PAT and run the following command in R and follow the steps:
+
+```{r, eval = FALSE}
+credentials::set_github_pat("Your_token")
+```
+
+6. Now push your changes to your remote repository!
 
 <img src="slides/pics/do.png" width="220" align="right">
+
+```{r, out.width = '25%', fig.align = 'left', echo = FALSE}
+knitr::include_graphics("slides/pics/do.png")
+```
+
 
 ## Branch out
 
@@ -43,9 +55,9 @@ Now it is time to put your new knowledge on Rmarkdown and git to good use.
 
 6. Open a new Rmd file and save it in the git repository.
 
-We will now use a data set from another repo for a simple analysis. This [repository](https://github.com/PerceptionCognitionLab/data0/tree/master/contexteffects/FlankerStroopSimon) contains data from several cognitive tasks. The [R-file](https://raw.githubusercontent.com/PerceptionCognitionLab/data0/master/contexteffects/FlankerStroopSimon/cleaning.R) in the repo loads and cleans the data.
+We will now use a data set from another repo for a simple analysis. This [*repository*](https://github.com/PerceptionCognitionLab/data0/tree/master/contexteffects/FlankerStroopSimon) contains data from several cognitive tasks. The [*R file*](https://raw.githubusercontent.com/PerceptionCognitionLab/data0/master/contexteffects/FlankerStroopSimon/cleaning.R) in the repo loads and cleans the data.
 
-7. Source the R-file from github directly. *Hint:* [Google is your best friend](https://stackoverflow.com/questions/35720660/how-to-use-an-r-script-from-github)
+7. Source the R-file from github directly. *Hint:* [*Google is your best friend*](https://stackoverflow.com/questions/35720660/how-to-use-an-r-script-from-github)
 
 You should now have the data set `stroop` loaded in R.
 
@@ -81,7 +93,7 @@ t.test(mean_rt ~ cond, data = stroop_agg, paired = T)
 
 10. Now add, commit, and push both the rmd file and the result file.
 
-You can either use the RStudio GUI or the terminal.
+You can either use the RStudio git interface or the terminal. In the terminal, type:
 
 ```{r eval = F}
 git add myfile.Rmd myfile.html
@@ -89,7 +101,7 @@ git commit -am "my commit message"
 git push --set-upstream origin dev
 ```
 
-11. And then merge the `dev` branch into `master`. You need to use the terminal for this.
+11. And then merge the `dev` branch into `master`. You can do it in your remote repository on the github webpage. Or you can use the terminal for this:
 
 ```{r eval = F}
 git checkout master

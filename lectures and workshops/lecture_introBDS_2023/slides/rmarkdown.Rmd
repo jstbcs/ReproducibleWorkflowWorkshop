@@ -34,7 +34,7 @@ load("mixed_data.rdata")
 
 You can find the slides and materials here: <https://github.com/jstbcs/ReproducibleWorkflowWorkshop>.
 
-Materials heavily build on previous workshops by **Julia Haaf**
+Materials heavily build on previous workshops by Julia Haaf
 
 ## Overview
 
@@ -174,7 +174,7 @@ link: <https://github.com/jstbcs/ReproducibleWorkflowWorkshop#how-to-prepare>
 
 <br>
 
-> -   Standardiztion: Think about your folder structure.
+> -   Standardization: Think about your folder structure.
 > -   Clean coding: Develop your own style guide. Note that you might have to adopt your future team's style.
 > -   Use comments throughout the analysis (`R Markdown` can help).
 > -   Use relative paths ("../material/example-paper.pdf" instead of "/home/julia/Documents/Git/ReproducibleWorkflowWorkshop/material/example-paper.pdf")!

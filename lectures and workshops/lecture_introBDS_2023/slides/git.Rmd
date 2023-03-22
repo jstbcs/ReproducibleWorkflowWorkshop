@@ -26,6 +26,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 3. What is `git` and how can I use it?
 
+## Slides and Material
+
+You can find the slides and materials here: <https://github.com/jstbcs/ReproducibleWorkflowWorkshop>.
+
+Materials heavily build on previous workshops by Julia Haaf
+
 ## What I would like to show you about `git`
 
 ::: left-col
@@ -154,16 +160,6 @@ git config --global user.name "My commit name"
 ## set your user name and email:
 usethis::use_git_config(user.name = "My commit name", user.email = "myemail@email.com")
 
-```
-
-## Create and set a personal access token (PAT)
-
--   In the R console
-
-```{r eval = F, echo = T}
-usethis::create_github_token() 
-
-credentials::set_github_pat("YourPAT")
 ```
 
 # First Repository!
@@ -411,8 +407,7 @@ I don't really have time to get into this
 
 ## Your turn!
 
--   Let's make breakout rooms
--   Then complete the in-class assignment.
+-   Complete the in-class assignment.
 
 <br>
 
